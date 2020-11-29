@@ -1,5 +1,6 @@
 import os
 import sqlalchemy as sa
+import pandas as pd
 import psycopg2
 
 
@@ -29,7 +30,7 @@ def fetch_data():
         ,isf
         ,iff
         ,icf
-    from skater_std_sum_all
+    from skater_std_sum_ev
     where session = 'R'
     """
 
