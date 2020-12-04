@@ -2,6 +2,9 @@
 
 Welcome everybody! I'm going to be exploring some different types of Linear Regression in this article and how to build models with them. Today's dataset is NHL player stats from 20082009 to present and we'll attempt to predict a players goal totals previous season stats. Just a heads up that the purpose of this article is to explore Linear Regression models and how to build/evaluate them, not to build the best possible model! Yes there are probably better options to solve this problem. However Linear Regression is great for building base line models; a model you can measure future results against. Sometimes you may find that the model you spent days training barely outperforms a Linear Regression that took 5 minutes! Without the baseline model to compare against, it would be impossible to tell how well the model actually works outside the vacuum of your experiement. I will be providing the code I'll be using 
 
+## Thanks
+
+I'd like to think Josh and Luke Youngreen, Ben Baldwin, and Andrew Patton for reading and providing feed back on this article
 
 Importing packages we'll need for the model building. Ill be using Scikit-Learn for the model building, pandas/numpy for data shaping, and seaborn/matplotlib.
 
@@ -914,7 +917,7 @@ From the test metrics above splitting out regular season goals and power play go
 ```python
 next_df['predicted_goals'] = ridge_estimator.predict(next_df[feature_columns])
 last_season_df = next_df[next_df.season == 20192020]
-last_season_df = last_season_df.sort_values('predicted_goals', ascending=False)
+last_season_df = last_season_df.sort_values('predicted_goals', ascending=False).reset_index(drop=True)
 top_20 = last_season_df[['player', 'predicted_goals']].head(20)
 top_20['rank'] = top_20.index + 1
 top_20['predicted_goals'] = round(top_20['predicted_goals'], 0)
@@ -949,124 +952,124 @@ top_20
   </thead>
   <tbody>
     <tr>
-      <th>11092</th>
+      <th>0</th>
       <td>Auston Matthews</td>
       <td>29.0</td>
-      <td>11093</td>
+      <td>1</td>
     </tr>
     <tr>
-      <th>10575</th>
+      <th>1</th>
       <td>David Pastrnak</td>
       <td>28.0</td>
-      <td>10576</td>
+      <td>2</td>
     </tr>
     <tr>
-      <th>4025</th>
+      <th>2</th>
       <td>Alex Ovechkin</td>
       <td>26.0</td>
-      <td>4026</td>
+      <td>3</td>
     </tr>
     <tr>
-      <th>10481</th>
+      <th>3</th>
       <td>Leon Draisaitl</td>
       <td>25.0</td>
-      <td>10482</td>
+      <td>4</td>
     </tr>
     <tr>
-      <th>10226</th>
+      <th>4</th>
       <td>Nathan MacKinnon</td>
       <td>25.0</td>
-      <td>10227</td>
+      <td>5</td>
     </tr>
     <tr>
-      <th>11293</th>
+      <th>5</th>
       <td>Elias Pettersson</td>
       <td>23.0</td>
-      <td>11294</td>
+      <td>6</td>
     </tr>
     <tr>
-      <th>10964</th>
+      <th>6</th>
       <td>Artemi Panarin</td>
       <td>23.0</td>
-      <td>10965</td>
+      <td>7</td>
     </tr>
     <tr>
-      <th>11400</th>
+      <th>7</th>
       <td>Brady Tkachuk</td>
       <td>22.0</td>
-      <td>11401</td>
+      <td>8</td>
     </tr>
     <tr>
-      <th>10782</th>
+      <th>8</th>
       <td>Connor McDavid</td>
       <td>22.0</td>
-      <td>10783</td>
+      <td>9</td>
     </tr>
     <tr>
-      <th>9994</th>
+      <th>9</th>
       <td>Dominik Kubalik</td>
       <td>22.0</td>
-      <td>9995</td>
+      <td>10</td>
     </tr>
     <tr>
-      <th>6623</th>
+      <th>10</th>
       <td>Max Pacioretty</td>
       <td>22.0</td>
-      <td>6624</td>
+      <td>11</td>
     </tr>
     <tr>
-      <th>10766</th>
+      <th>11</th>
       <td>Kyle Connor</td>
       <td>22.0</td>
-      <td>10767</td>
+      <td>12</td>
     </tr>
     <tr>
-      <th>6564</th>
+      <th>12</th>
       <td>Patrick Kane</td>
       <td>21.0</td>
-      <td>6565</td>
+      <td>13</td>
     </tr>
     <tr>
-      <th>9201</th>
+      <th>13</th>
       <td>Nikita Kucherov</td>
       <td>21.0</td>
-      <td>9202</td>
+      <td>14</td>
     </tr>
     <tr>
-      <th>9252</th>
+      <th>14</th>
       <td>Mika Zibanejad</td>
       <td>20.0</td>
-      <td>9253</td>
+      <td>15</td>
     </tr>
     <tr>
-      <th>10787</th>
+      <th>15</th>
       <td>Jack Eichel</td>
       <td>20.0</td>
-      <td>10788</td>
+      <td>16</td>
     </tr>
     <tr>
-      <th>10824</th>
+      <th>16</th>
       <td>Sebastian Aho</td>
       <td>20.0</td>
-      <td>10825</td>
+      <td>17</td>
     </tr>
     <tr>
-      <th>11411</th>
+      <th>17</th>
       <td>Andrei Svechnikov</td>
       <td>20.0</td>
-      <td>11412</td>
+      <td>18</td>
     </tr>
     <tr>
-      <th>11114</th>
+      <th>18</th>
       <td>Patrik Laine</td>
       <td>19.0</td>
-      <td>11115</td>
+      <td>19</td>
     </tr>
     <tr>
-      <th>10647</th>
+      <th>19</th>
       <td>Brayden Point</td>
       <td>19.0</td>
-      <td>10648</td>
+      <td>20</td>
     </tr>
   </tbody>
 </table>
