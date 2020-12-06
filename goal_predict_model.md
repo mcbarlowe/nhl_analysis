@@ -943,32 +943,33 @@ next_df['predicted_goals'] = ridge_estimator.predict(next_df[feature_columns])
 last_season_df = next_df[next_df.season == 20192020]
 last_season_df = last_season_df.sort_values('predicted_goals', ascending=False)
 top_20 = last_season_df[['player', 'predicted_goals']].head(20)
+top_20 = top_20.reset_index(drop=True)
 top_20['rank'] = top_20.index + 1
 top_20['predicted_goals'] = round(top_20['predicted_goals'], 0)
 print(top_20)
 ```
 
-                      player  predicted_goals   rank
-    11092    Auston Matthews             29.0  11093
-    10575     David Pastrnak             28.0  10576
-    4025       Alex Ovechkin             26.0   4026
-    10481     Leon Draisaitl             25.0  10482
-    10226   Nathan MacKinnon             25.0  10227
-    11293   Elias Pettersson             23.0  11294
-    10964     Artemi Panarin             23.0  10965
-    11400      Brady Tkachuk             22.0  11401
-    10782     Connor McDavid             22.0  10783
-    9994     Dominik Kubalik             22.0   9995
-    6623      Max Pacioretty             22.0   6624
-    10766        Kyle Connor             22.0  10767
-    6564        Patrick Kane             21.0   6565
-    9201     Nikita Kucherov             21.0   9202
-    9252      Mika Zibanejad             20.0   9253
-    10787        Jack Eichel             20.0  10788
-    10824      Sebastian Aho             20.0  10825
-    11114       Patrik Laine             20.0  11115
-    11411  Andrei Svechnikov             20.0  11412
-    10647      Brayden Point             19.0  10648
+                   player  predicted_goals  rank
+    0     Auston Matthews             29.0     1
+    1      David Pastrnak             28.0     2
+    2       Alex Ovechkin             26.0     3
+    3      Leon Draisaitl             25.0     4
+    4    Nathan MacKinnon             25.0     5
+    5    Elias Pettersson             23.0     6
+    6      Artemi Panarin             23.0     7
+    7       Brady Tkachuk             22.0     8
+    8      Connor McDavid             22.0     9
+    9     Dominik Kubalik             22.0    10
+    10     Max Pacioretty             22.0    11
+    11        Kyle Connor             22.0    12
+    12       Patrick Kane             21.0    13
+    13    Nikita Kucherov             21.0    14
+    14     Mika Zibanejad             20.0    15
+    15        Jack Eichel             20.0    16
+    16      Sebastian Aho             20.0    17
+    17       Patrik Laine             20.0    18
+    18  Andrei Svechnikov             20.0    19
+    19      Brayden Point             19.0    20
 
 
 As we can see the names look about right however the totals are heavily depressed this is most likely due to the regression weighting the fact that most players don't score a lot of goals so to improve scoring it artifically depresses values to optimize it errors. As mentioned above the `BaggingRegressor` allows us to create a distribution of goal values as seen below.
