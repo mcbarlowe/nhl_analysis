@@ -12,7 +12,6 @@ Importing packages we'll need for the model building. Ill be using Scikit-Learn 
 ```python
 import os
 import math
-from functools import reduce
 import itertools
 import time
 
@@ -225,20 +224,42 @@ KBest = KBest.fit(x_train, y_train.values[:,0])
 
 ```
 
-As we can see the SelectKBest features and the correlation matrix doesn't disagree much in what are the best features in the model to predict next seasons goal. Next we need to see which of these are mulitcolinear meaning that the features are correlated among themselves as well as being correlated to the target variable. This can be a probably beause it doesn't allow one to interpret the coefficients of the features as easily.  Looking at the correlation matrix below lets take out iff, iff_pp, isf_pp as those are highly correlated to other stats. We will replace them with the next three best features that aren't also highly multicolinear which is 'pos_F', 'a1_pp', and 'gp' as you can see in the matrix below
+
+```python
+features = [(feature_columns[x], y) for x, y in  zip(list(KBest.get_support(feature_columns)), KBest.scores_)]
+
+print("Select Kbest top 10 features:")
+for x,y in sorted(features, key= lambda x: x[1], reverse=True):
+    print(x,round(y, 2))
+```
+
+    Select Kbest top 10 features:
+    g 178.72
+    g_pp 143.08
+    toi_pp 140.26
+    isf_pp 113.51
+    a1 109.24
+    iff 71.63
+    isf 67.38
+    iff_pp 65.73
+    gp 58.76
+    avg_goals_season 52.69
+
+
+As we can see the SelectKBest features and the correlation matrix don't disagree much in what are the best features in the model to predict next seasons goal. Next we need to see which of these are mulitcolinear meaning that the features are correlated among themselves as well as being correlated to the target variable. This can be a probably beause it doesn't allow one to interpret the coefficients of the features as easily.  Looking at the correlation matrix below lets take out iff, iff_pp, isf_pp as those are highly correlated to other stats. We will replace them with the next three best features that aren't also highly multicolinear which is 'pos_F', 'a1_pp', and 'gp' as you can see in the matrix below
 
 
 ```python
 corr_matrix = x_train.loc[:, list(x_train.columns[KBest.get_support()]) + ['pos_F', 'a1_pp', 'gp']].corr()
 # Draw the heatmap 
-fig, ax = plt.subplots(figsize=(9,9))
+fig, ax = plt.subplots(figsize=(8,8))
 sns.heatmap(corr_matrix, annot=True, fmt='.2g')
 plt.show()
 ```
 
 
     
-![png](goal_predict_model_files/goal_predict_model_17_0.png)
+![png](goal_predict_model_files/goal_predict_model_18_0.png)
     
 
 
@@ -263,12 +284,13 @@ from sklearn.pipeline import Pipeline
 #If you are repeating code a lot it's best to wrap it in a function as you'll see below it makes training
 #the models a lot easier and comparing their result on the test data sets
 
-def cv_model(x, y, model, n_estimators: int, n_splits: int, features: list=[]):
+def cv_model(x, y, model, n_estimators: int, features: list=[]):
     
     feature_array = x[features]
     estimator = Pipeline(steps=[('preprocessor', StandardScaler()),
                                 ('classifier', 
-                                 BaggingRegressor(model, n_estimators=n_estimators, bootstrap=True))])
+                                 BaggingRegressor(model, n_estimators=n_estimators, 
+                                                  bootstrap=True, n_jobs=-1))])
     estimator.fit(feature_array, y.values[:, 0])
 
     y_hat_values = estimator.predict(feature_array)
@@ -318,7 +340,7 @@ The first regression we will be working with in this article is the Ordinary Lea
 
 
 ```python
-estimator = cv_model(x_train, y_train, LinearRegression(), 500, 10, features=selected_features)
+estimator = cv_model(x_train, y_train, LinearRegression(), 500, features=selected_features)
 ```
 
     Building model with features: ['g', 'g_pp', 'isf', 'toi_pp', 'isf_pp', 'avg_goals_season', 'g_avg_past_2_seasons', 'pos_F', 'gp', 'a1']
@@ -326,7 +348,7 @@ estimator = cv_model(x_train, y_train, LinearRegression(), 500, 10, features=sel
     R^2 for test set: 0.5527
     Mean Squared Error for training set: 27.5709
     Root Mean Squared Error for training set: 5.2508
-    Mean Absolute Error for training set: 3.5746
+    Mean Absolute Error for training set: 3.5732
     
 
 
@@ -337,10 +359,10 @@ oos_stats(x_test, y_test, selected_features, estimator, 'Linear Regression')
 
     Building Linear Regression with features: ['g', 'g_pp', 'isf', 'toi_pp', 'isf_pp', 'avg_goals_season', 'g_avg_past_2_seasons', 'pos_F', 'gp', 'a1']
     Linear Regression model Out of Sample metrics:
-    R^2: 0.5364
-    Mean Squared Error: 27.6984
-    Root Mean Squared Error: 5.2629
-    Average Mean Absolute Error for test set: 3.5089
+    R^2: 0.5362
+    Mean Squared Error: 27.705
+    Root Mean Squared Error: 5.2636
+    Average Mean Absolute Error for test set: 3.5082
 
 
 # OLS Assumptions
@@ -384,7 +406,7 @@ plt.show()
 
 
     
-![png](goal_predict_model_files/goal_predict_model_26_0.png)
+![png](goal_predict_model_files/goal_predict_model_27_0.png)
     
 
 
@@ -404,7 +426,7 @@ plt.show()
 
 
     
-![png](goal_predict_model_files/goal_predict_model_28_0.png)
+![png](goal_predict_model_files/goal_predict_model_29_0.png)
     
 
 
@@ -437,7 +459,7 @@ fig.delaxes(axs[2][3])
 
 
     
-![png](goal_predict_model_files/goal_predict_model_31_0.png)
+![png](goal_predict_model_files/goal_predict_model_32_0.png)
     
 
 
@@ -461,7 +483,7 @@ resid_avg = np.average(residuals)
 print(f"Average of the residuals: {resid_avg}")
 ```
 
-    Average of the residuals: 0.0006283256370234607
+    Average of the residuals: 0.0017464026023982866
 
 
 
@@ -475,7 +497,7 @@ plt.show()
 
 
     
-![png](goal_predict_model_files/goal_predict_model_36_0.png)
+![png](goal_predict_model_files/goal_predict_model_37_0.png)
     
 
 
@@ -493,7 +515,7 @@ plt.show()
 
 
     
-![png](goal_predict_model_files/goal_predict_model_38_0.png)
+![png](goal_predict_model_files/goal_predict_model_39_0.png)
     
 
 
@@ -535,16 +557,16 @@ These models will also do a Grid Search on the alpha parameters I'm passing to t
 from sklearn.linear_model import RidgeCV
 lambdas_ridge = [0.01, 0.025, 0.05, .075, 0.1]
 alpha_ridge = [lambda_to_alpha(l, x_train.shape[0]) for l in lambdas_ridge]
-ridge_estimator = cv_model(x_train, y_train, RidgeCV(alphas=alpha_ridge, cv=10), 500, 10, 
+ridge_estimator = cv_model(x_train, y_train, RidgeCV(alphas=alpha_ridge, cv=10), 500,
                            features=feature_columns)
 ```
 
     Building model with features: ['g', 'a1', 'a2', 'toi', 'gp', 'isf', 'iff', 'g_pp', 'a1_pp', 'a2_pp', 'toi_pp', 'isf_pp', 'iff_pp', 'pos_D', 'pos_D/F', 'pos_F', 'toi_gp', 'sh_percent', 'sh_percent_pp', 'avg_goals_season', 'avg_sh_perc', 'sh_perc_diff', 'g_avg_past_2_seasons']
     Baseline linear model training set metrics:
     R^2 for test set: 0.5603
-    Mean Squared Error for training set: 27.1019
-    Root Mean Squared Error for training set: 5.2059
-    Mean Absolute Error for training set: 3.5515
+    Mean Squared Error for training set: 27.0996
+    Root Mean Squared Error for training set: 5.2057
+    Mean Absolute Error for training set: 3.5525
     
 
 
@@ -557,10 +579,10 @@ oos_stats(x_test, y_test, feature_columns, ridge_estimator, 'Ridge Regression')
 
     Building Ridge Regression with features: ['g', 'a1', 'a2', 'toi', 'gp', 'isf', 'iff', 'g_pp', 'a1_pp', 'a2_pp', 'toi_pp', 'isf_pp', 'iff_pp', 'pos_D', 'pos_D/F', 'pos_F', 'toi_gp', 'sh_percent', 'sh_percent_pp', 'avg_goals_season', 'avg_sh_perc', 'sh_perc_diff', 'g_avg_past_2_seasons']
     Ridge Regression model Out of Sample metrics:
-    R^2: 0.5377
-    Mean Squared Error: 27.6164
-    Root Mean Squared Error: 5.2551
-    Average Mean Absolute Error for test set: 3.5215
+    R^2: 0.5375
+    Mean Squared Error: 27.6314
+    Root Mean Squared Error: 5.2566
+    Average Mean Absolute Error for test set: 3.5238
 
 
 ## Lasso Regression
@@ -577,15 +599,15 @@ from sklearn.linear_model import LassoCV
 lasso_lambdas = [.01, .001, .002, .003, .0001]
 lasso_alphas = [lambda_to_alpha(l, x_train.shape[0]) for l in lasso_lambdas]
 lasso_estimator = cv_model(x_train, y_train, LassoCV(alphas=lasso_alphas, max_iter=1000), 
-                           500, 10, features=feature_columns)
+                           500, features=feature_columns)
 ```
 
     Building model with features: ['g', 'a1', 'a2', 'toi', 'gp', 'isf', 'iff', 'g_pp', 'a1_pp', 'a2_pp', 'toi_pp', 'isf_pp', 'iff_pp', 'pos_D', 'pos_D/F', 'pos_F', 'toi_gp', 'sh_percent', 'sh_percent_pp', 'avg_goals_season', 'avg_sh_perc', 'sh_perc_diff', 'g_avg_past_2_seasons']
     Baseline linear model training set metrics:
-    R^2 for test set: 0.5402
-    Mean Squared Error for training set: 28.3422
-    Root Mean Squared Error for training set: 5.3237
-    Mean Absolute Error for training set: 3.6547
+    R^2 for test set: 0.5401
+    Mean Squared Error for training set: 28.3464
+    Root Mean Squared Error for training set: 5.3241
+    Mean Absolute Error for training set: 3.6561
     
 
 
@@ -596,10 +618,10 @@ oos_stats(x_test, y_test, feature_columns, lasso_estimator, 'Lasso Regression')
 
     Building Lasso Regression with features: ['g', 'a1', 'a2', 'toi', 'gp', 'isf', 'iff', 'g_pp', 'a1_pp', 'a2_pp', 'toi_pp', 'isf_pp', 'iff_pp', 'pos_D', 'pos_D/F', 'pos_F', 'toi_gp', 'sh_percent', 'sh_percent_pp', 'avg_goals_season', 'avg_sh_perc', 'sh_perc_diff', 'g_avg_past_2_seasons']
     Lasso Regression model Out of Sample metrics:
-    R^2: 0.5282
-    Mean Squared Error: 28.1826
-    Root Mean Squared Error: 5.3087
-    Average Mean Absolute Error for test set: 3.5789
+    R^2: 0.528
+    Mean Squared Error: 28.199
+    Root Mean Squared Error: 5.3103
+    Average Mean Absolute Error for test set: 3.5818
 
 
 # ElasticNet Regression
@@ -614,15 +636,15 @@ from sklearn.linear_model import ElasticNetCV
 l1_ratios = [.1, .5, .7, .9, .95, .99, 1]
 elastic_alphas = lasso_alphas + alpha_ridge
 elastic_estimator = cv_model(x_train, y_train, ElasticNetCV(l1_ratio=l1_ratios, alphas=elastic_alphas), 
-                             500, 10, features=feature_columns)
+                             500, features=feature_columns)
 ```
 
     Building model with features: ['g', 'a1', 'a2', 'toi', 'gp', 'isf', 'iff', 'g_pp', 'a1_pp', 'a2_pp', 'toi_pp', 'isf_pp', 'iff_pp', 'pos_D', 'pos_D/F', 'pos_F', 'toi_gp', 'sh_percent', 'sh_percent_pp', 'avg_goals_season', 'avg_sh_perc', 'sh_perc_diff', 'g_avg_past_2_seasons']
     Baseline linear model training set metrics:
-    R^2 for test set: 0.5449
-    Mean Squared Error for training set: 28.0503
-    Root Mean Squared Error for training set: 5.2963
-    Mean Absolute Error for training set: 3.6127
+    R^2 for test set: 0.545
+    Mean Squared Error for training set: 28.0478
+    Root Mean Squared Error for training set: 5.296
+    Mean Absolute Error for training set: 3.6125
     
 
 
@@ -634,9 +656,9 @@ oos_stats(x_test, y_test, feature_columns, elastic_estimator, 'ElasticNet Regres
     Building ElasticNet Regression with features: ['g', 'a1', 'a2', 'toi', 'gp', 'isf', 'iff', 'g_pp', 'a1_pp', 'a2_pp', 'toi_pp', 'isf_pp', 'iff_pp', 'pos_D', 'pos_D/F', 'pos_F', 'toi_gp', 'sh_percent', 'sh_percent_pp', 'avg_goals_season', 'avg_sh_perc', 'sh_perc_diff', 'g_avg_past_2_seasons']
     ElasticNet Regression model Out of Sample metrics:
     R^2: 0.5326
-    Mean Squared Error: 27.9245
-    Root Mean Squared Error: 5.2844
-    Average Mean Absolute Error for test set: 3.5387
+    Mean Squared Error: 27.9221
+    Root Mean Squared Error: 5.2841
+    Average Mean Absolute Error for test set: 3.5384
 
 
 # Comparing the Four Models
@@ -660,15 +682,15 @@ print((f'{"Elastic Net:":<15}{round(mean_absolute_error(elastic_estimator.predic
 
     Comparing R^2 of Models on Test Set:
     Elastic Net:       0.5326
-    Lasso:             0.5282
-    Ridge:             0.5377
-    OLS:               0.5364
+    Lasso:              0.528
+    Ridge:             0.5375
+    OLS:               0.5362
     
     Comparing MAE of Models on Test Set:
-    Elastic Net:       3.5387
-    Lasso:             3.5789
-    Ridge:             3.5215
-    OLS:               3.5089
+    Elastic Net:       3.5384
+    Lasso:             3.5818
+    Ridge:             3.5238
+    OLS:               3.5082
     
 
 
@@ -710,7 +732,7 @@ x_pp_train, x_pp_test, y_pp_train, y_pp_test = train_test_split(next_df[pp_featu
 ```python
 lambdas_ridge = [0.01, 0.025, 0.05, .075, 0.1]
 alpha_ridge = [lambda_to_alpha(l, x_train.shape[0]) for l in lambdas_ridge]
-ridge_ev_estimator = cv_model(x_ev_train, y_ev_train, RidgeCV(alphas=alpha_ridge, cv=10), 500, 10, 
+ridge_ev_estimator = cv_model(x_ev_train, y_ev_train, RidgeCV(alphas=alpha_ridge, cv=10), 500, 
                            features=ev_features)
 ```
 
@@ -719,7 +741,7 @@ ridge_ev_estimator = cv_model(x_ev_train, y_ev_train, RidgeCV(alphas=alpha_ridge
     R^2 for test set: 0.4838
     Mean Squared Error for training set: 16.6624
     Root Mean Squared Error for training set: 4.082
-    Mean Absolute Error for training set: 2.8648
+    Mean Absolute Error for training set: 2.8641
     
 
 
@@ -727,16 +749,16 @@ ridge_ev_estimator = cv_model(x_ev_train, y_ev_train, RidgeCV(alphas=alpha_ridge
 ```python
 lambdas_ridge = [0.01, 0.025, 0.05, .075, 0.1]
 alpha_ridge = [lambda_to_alpha(l, x_train.shape[0]) for l in lambdas_ridge]
-ridge_pp_estimator = cv_model(x_pp_train, y_pp_train, RidgeCV(alphas=alpha_ridge, cv=10), 500, 10, 
+ridge_pp_estimator = cv_model(x_pp_train, y_pp_train, RidgeCV(alphas=alpha_ridge, cv=10), 500, 
                            features=pp_features)
 ```
 
     Building model with features: ['g_pp', 'a1_pp', 'a2_pp', 'toi_pp', 'isf_pp', 'iff_pp', 'pos_D', 'pos_D/F', 'pos_F']
     Baseline linear model training set metrics:
     R^2 for test set: 0.465
-    Mean Squared Error for training set: 4.0544
-    Root Mean Squared Error for training set: 2.0136
-    Mean Absolute Error for training set: 1.2256
+    Mean Squared Error for training set: 4.0542
+    Root Mean Squared Error for training set: 2.0135
+    Mean Absolute Error for training set: 1.2253
     
 
 
@@ -747,10 +769,10 @@ oos_stats(x_ev_test, y_ev_test, ev_features, ridge_ev_estimator, 'EV Ridge Regre
 
     Building EV Ridge Regression with features: ['g', 'a1', 'a2', 'toi', 'gp', 'isf', 'iff', 'pos_D', 'pos_D/F', 'pos_F', 'toi_gp']
     EV Ridge Regression model Out of Sample metrics:
-    R^2: 0.5112
-    Mean Squared Error: 15.384
-    Root Mean Squared Error: 3.9222
-    Average Mean Absolute Error for test set: 2.7633
+    R^2: 0.5113
+    Mean Squared Error: 15.3831
+    Root Mean Squared Error: 3.9221
+    Average Mean Absolute Error for test set: 2.7625
 
 
 
@@ -761,9 +783,9 @@ oos_stats(x_pp_test, y_pp_test, pp_features, ridge_pp_estimator, 'PP Ridge Regre
     Building PP Ridge Regression with features: ['g_pp', 'a1_pp', 'a2_pp', 'toi_pp', 'isf_pp', 'iff_pp', 'pos_D', 'pos_D/F', 'pos_F']
     PP Ridge Regression model Out of Sample metrics:
     R^2: 0.4441
-    Mean Squared Error: 4.0158
+    Mean Squared Error: 4.0157
     Root Mean Squared Error: 2.0039
-    Average Mean Absolute Error for test set: 1.2586
+    Average Mean Absolute Error for test set: 1.2583
 
 
 
@@ -788,9 +810,9 @@ print((f"Combined PP/EV model Out of Sample metrics:\n"
     Building Combined PP/EV goal regressions
     Combined PP/EV model Out of Sample metrics:
     R^2: 0.5305
-    Mean Squared Error: 28.0508
+    Mean Squared Error: 28.0505
     Root Mean Squared Error: 5.2963
-    Mean Absolute Error for test set: 3.571
+    Mean Absolute Error for test set: 3.57
 
 
 ## Elastic Net Even Strength and Power Play Goals models
@@ -799,24 +821,26 @@ print((f"Combined PP/EV model Out of Sample metrics:\n"
 ```python
 l1_ratios = [.1, .5, .7, .9, .95, .99, 1]
 elastic_alphas = lasso_alphas + alpha_ridge
-elastic_ev_estimator = cv_model(x_ev_train, y_ev_train, ElasticNetCV(l1_ratio=l1_ratios, alphas=elastic_alphas), 
-                             500, 10, features=ev_features)
-elastic_pp_estimator = cv_model(x_pp_train, y_pp_train, ElasticNetCV(l1_ratio=l1_ratios, alphas=elastic_alphas), 
-                             500, 10, features=pp_features)
+elastic_ev_estimator = cv_model(x_ev_train, y_ev_train, 
+                                ElasticNetCV(l1_ratio=l1_ratios, alphas=elastic_alphas), 
+                                500, features=ev_features)
+elastic_pp_estimator = cv_model(x_pp_train, y_pp_train, 
+                                ElasticNetCV(l1_ratio=l1_ratios, alphas=elastic_alphas), 
+                                500, features=pp_features)
 ```
 
     Building model with features: ['g', 'a1', 'a2', 'toi', 'gp', 'isf', 'iff', 'pos_D', 'pos_D/F', 'pos_F', 'toi_gp']
     Baseline linear model training set metrics:
     R^2 for test set: 0.4624
-    Mean Squared Error for training set: 17.3513
-    Root Mean Squared Error for training set: 4.1655
-    Mean Absolute Error for training set: 2.9574
+    Mean Squared Error for training set: 17.3536
+    Root Mean Squared Error for training set: 4.1658
+    Mean Absolute Error for training set: 2.958
     
     Building model with features: ['g_pp', 'a1_pp', 'a2_pp', 'toi_pp', 'isf_pp', 'iff_pp', 'pos_D', 'pos_D/F', 'pos_F']
     Baseline linear model training set metrics:
-    R^2 for test set: 0.4556
-    Mean Squared Error for training set: 4.1251
-    Root Mean Squared Error for training set: 2.031
+    R^2 for test set: 0.4554
+    Mean Squared Error for training set: 4.1271
+    Root Mean Squared Error for training set: 2.0315
     Mean Absolute Error for training set: 1.2131
     
 
@@ -840,10 +864,10 @@ print((f"Combined Elastic PP/EV model Out of Sample metrics:\n"
 ```
 
     Combined Elastic PP/EV model Out of Sample metrics:
-    R^2: 0.5087
-    Mean Squared Error: 29.3515
-    Root Mean Squared Error: 5.4177
-    Mean Absolute Error for test set: 3.7008
+    R^2: 0.5085
+    Mean Squared Error: 29.3634
+    Root Mean Squared Error: 5.4188
+    Mean Absolute Error for test set: 3.7021
 
 
 ## Lasso Even Strength and Power Play Goals models
@@ -853,24 +877,24 @@ print((f"Combined Elastic PP/EV model Out of Sample metrics:\n"
 lasso_lambdas = [.01, .001, .002, .003, .0001]
 lasso_alphas = [lambda_to_alpha(l, x_train.shape[0]) for l in lasso_lambdas]
 lasso_ev_estimator = cv_model(x_ev_train, y_ev_train, LassoCV(alphas=lasso_alphas, max_iter=1000), 
-                           500, 10, features=ev_features)
+                              500, features=ev_features)
 lasso_pp_estimator = cv_model(x_pp_train, y_pp_train, LassoCV(alphas=lasso_alphas, max_iter=1000), 
-                           500, 10, features=pp_features)
+                              500, features=pp_features)
 ```
 
     Building model with features: ['g', 'a1', 'a2', 'toi', 'gp', 'isf', 'iff', 'pos_D', 'pos_D/F', 'pos_F', 'toi_gp']
     Baseline linear model training set metrics:
     R^2 for test set: 0.4593
-    Mean Squared Error for training set: 17.4516
-    Root Mean Squared Error for training set: 4.1775
-    Mean Absolute Error for training set: 2.9714
+    Mean Squared Error for training set: 17.4522
+    Root Mean Squared Error for training set: 4.1776
+    Mean Absolute Error for training set: 2.9715
     
     Building model with features: ['g_pp', 'a1_pp', 'a2_pp', 'toi_pp', 'isf_pp', 'iff_pp', 'pos_D', 'pos_D/F', 'pos_F']
     Baseline linear model training set metrics:
-    R^2 for test set: 0.4204
-    Mean Squared Error for training set: 4.3921
-    Root Mean Squared Error for training set: 2.0957
-    Mean Absolute Error for training set: 1.3139
+    R^2 for test set: 0.4206
+    Mean Squared Error for training set: 4.3909
+    Root Mean Squared Error for training set: 2.0954
+    Mean Absolute Error for training set: 1.3132
     
 
 
@@ -894,9 +918,9 @@ print((f"Combined Lasso PP/EV model Out of Sample metrics:\n"
 
     Combined Lasso PP/EV model Out of Sample metrics:
     R^2: 0.4982
-    Mean Squared Error: 29.9753
-    Root Mean Squared Error: 5.475
-    Mean Absolute Error for test set: 3.7992
+    Mean Squared Error: 29.9772
+    Root Mean Squared Error: 5.4751
+    Mean Absolute Error for test set: 3.7991
 
 
 Comparing R^2 of Models on Test Set:
@@ -917,164 +941,34 @@ From the test metrics above splitting out regular season goals and power play go
 ```python
 next_df['predicted_goals'] = ridge_estimator.predict(next_df[feature_columns])
 last_season_df = next_df[next_df.season == 20192020]
-last_season_df = last_season_df.sort_values('predicted_goals', ascending=False).reset_index(drop=True)
+last_season_df = last_season_df.sort_values('predicted_goals', ascending=False)
 top_20 = last_season_df[['player', 'predicted_goals']].head(20)
 top_20['rank'] = top_20.index + 1
 top_20['predicted_goals'] = round(top_20['predicted_goals'], 0)
-top_20
+print(top_20)
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>player</th>
-      <th>predicted_goals</th>
-      <th>rank</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Auston Matthews</td>
-      <td>29.0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>David Pastrnak</td>
-      <td>28.0</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Alex Ovechkin</td>
-      <td>26.0</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Leon Draisaitl</td>
-      <td>25.0</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Nathan MacKinnon</td>
-      <td>25.0</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Elias Pettersson</td>
-      <td>23.0</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Artemi Panarin</td>
-      <td>23.0</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>Brady Tkachuk</td>
-      <td>22.0</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Connor McDavid</td>
-      <td>22.0</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Dominik Kubalik</td>
-      <td>22.0</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>Max Pacioretty</td>
-      <td>22.0</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>Kyle Connor</td>
-      <td>22.0</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>Patrick Kane</td>
-      <td>21.0</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>Nikita Kucherov</td>
-      <td>21.0</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>Mika Zibanejad</td>
-      <td>20.0</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>Jack Eichel</td>
-      <td>20.0</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>Sebastian Aho</td>
-      <td>20.0</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>Andrei Svechnikov</td>
-      <td>20.0</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>Patrik Laine</td>
-      <td>19.0</td>
-      <td>19</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>Brayden Point</td>
-      <td>19.0</td>
-      <td>20</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+                      player  predicted_goals   rank
+    11092    Auston Matthews             29.0  11093
+    10575     David Pastrnak             28.0  10576
+    4025       Alex Ovechkin             26.0   4026
+    10481     Leon Draisaitl             25.0  10482
+    10226   Nathan MacKinnon             25.0  10227
+    11293   Elias Pettersson             23.0  11294
+    10964     Artemi Panarin             23.0  10965
+    11400      Brady Tkachuk             22.0  11401
+    10782     Connor McDavid             22.0  10783
+    9994     Dominik Kubalik             22.0   9995
+    6623      Max Pacioretty             22.0   6624
+    10766        Kyle Connor             22.0  10767
+    6564        Patrick Kane             21.0   6565
+    9201     Nikita Kucherov             21.0   9202
+    9252      Mika Zibanejad             20.0   9253
+    10787        Jack Eichel             20.0  10788
+    10824      Sebastian Aho             20.0  10825
+    11114       Patrik Laine             20.0  11115
+    11411  Andrei Svechnikov             20.0  11412
+    10647      Brayden Point             19.0  10648
 
 
 As we can see the names look about right however the totals are heavily depressed this is most likely due to the regression weighting the fact that most players don't score a lot of goals so to improve scoring it artifically depresses values to optimize it errors. As mentioned above the `BaggingRegressor` allows us to create a distribution of goal values as seen below.
@@ -1099,7 +993,7 @@ plt.show()
 
 
     
-![png](goal_predict_model_files/goal_predict_model_76_0.png)
+![png](goal_predict_model_files/goal_predict_model_77_0.png)
     
 
 
