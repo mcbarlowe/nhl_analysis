@@ -1,0 +1,914 @@
+PLAYER_ID,player,pos,team,gp,g,a,p,soi,+/-
+8479411,Vitaly Abramov,L,Ottawa Senators,2,0,0,0,1166,0
+8478569,Noel Acciari,C,Florida Panthers,41,4,7,11,37868,0
+8480884,Calen Addison,D,Minnesota Wild,3,0,0,0,3333,0
+8475844,Kenny Agostino,L,Toronto Maple Leafs,1,0,0,0,248,0
+8475461,Andrew Agozzino,L,Anaheim Ducks,3,0,1,1,2192,0
+8482072,Jack Ahcan,D,Boston Bruins,3,0,0,0,3715,-3
+8478427,Sebastian Aho,C,Carolina Hurricanes,56,24,33,57,65421,16
+8480222,Sebastian Aho,D,New York Islanders,3,1,1,2,2403,-1
+8479329,Frederic Allard,D,Nashville Predators,1,0,0,0,1019,-2
+8479322,Wade Allison,R,Philadelphia Flyers,14,4,3,7,10863,1
+8481629,Olle Alsing,D,Ottawa Senators,4,0,0,0,2599,-1
+8475729,Mark Alt,D,Los Angeles Kings,2,0,0,0,1630,0
+8478020,Michael Amadio,C,"Los Angeles Kings,Ottawa Senators",25,0,3,3,18825,-3
+8479315,Joey Anderson,R,Toronto Maple Leafs,1,0,0,0,576,1
+8476981,Josh Anderson,R,Montréal Canadiens,52,17,7,24,51225,-10
+8479998,Mikey Anderson,D,Los Angeles Kings,54,1,10,11,68611,0
+8479994,Jaret Anderson-Dolan,C,Los Angeles Kings,34,7,4,11,27560,-9
+8480072,Lias Andersson,C,Los Angeles Kings,23,3,3,6,16651,-4
+8478397,Rasmus Andersson,D,Calgary Flames,56,5,16,21,71313,-9
+8476404,Andy Andreoff,C,Philadelphia Flyers,6,0,0,0,3099,-6
+8478074,Anthony Angello,R,Pittsburgh Penguins,19,2,2,4,9101,4
+8473573,Artem Anisimov,C,Ottawa Senators,19,2,7,9,13709,1
+8478891,Mason Appleton,C,Winnipeg Jets,56,12,13,25,48425,11
+8476326,Josh Archibald,R,Edmonton Oilers,52,7,6,13,42259,2
+8476469,Joel Armia,R,Montréal Canadiens,41,7,7,14,36178,10
+8478042,Viktor Arvidsson,R,Nashville Predators,50,10,15,25,49814,9
+8479335,Rasmus Asplund,C,Buffalo Sabres,28,7,4,11,21596,1
+8479944,Zach Aston-Reese,L,Pittsburgh Penguins,45,9,6,15,39482,10
+8476960,Andreas Athanasiou,C,Los Angeles Kings,47,10,13,23,42157,-6
+8474715,Cam Atkinson,R,Columbus Blue Jackets,56,15,19,34,63618,-16
+8477979,Nicolas Aube-Kubel,R,Philadelphia Flyers,50,3,9,12,33520,-3
+8470655,David Backes,R,Anaheim Ducks,15,3,1,4,11461,-4
+8474150,Mikael Backlund,C,Calgary Flames,54,9,23,32,57006,-7
+8473563,Nicklas Backstrom,C,Washington Capitals,55,15,38,53,61363,0
+8480860,Kevin Bahl,D,New Jersey Devils,7,0,2,2,7105,0
+8474573,Josh Bailey,R,New York Islanders,54,8,27,35,56699,12
+8477473,Justin Bailey,R,Vancouver Canucks,3,0,0,0,1224,-2
+8478870,Rudolfs Balcers,L,San Jose Sharks,41,8,9,17,36190,-6
+8482222,Alexander Barabanov,L,"Toronto Maple Leafs,San Jose Sharks",22,3,5,8,16252,1
+8477964,Ivan Barbashev,C,St. Louis Blues,38,5,7,12,30445,5
+8477493,Aleksander Barkov,C,Florida Panthers,50,26,32,58,62812,12
+8479718,Alex Barre-Boulet,C,Tampa Bay Lightning,15,3,0,3,13727,0
+8475197,Tyson Barrie,D,Edmonton Oilers,56,8,40,48,71892,4
+8480289,Morgan Barron,C,New York Rangers,5,1,0,1,4107,-1
+8474749,Matt Bartkowski,D,Minnesota Wild,1,0,0,0,782,-1
+8478445,Mathew Barzal,C,New York Islanders,55,17,28,45,61787,15
+8479414,Nathan Bastian,R,New Jersey Devils,41,3,7,10,31047,0
+8480208,Drake Batherson,R,Ottawa Senators,56,17,17,34,55352,-17
+8479945,Gavin Bayreuther,D,Columbus Blue Jackets,9,1,0,1,8309,-1
+8474291,Jay Beagle,C,Vancouver Canucks,30,1,4,5,22534,-2
+8479402,Jake Bean,D,Carolina Hurricanes,42,1,11,12,36635,-2
+8478451,Ethan Bear,D,Edmonton Oilers,43,2,6,8,46341,-1
+8480814,Nicolas Beaudin,D,Chicago Blackhawks,19,2,4,6,15708,1
+8476470,Nathan Beaulieu,D,Winnipeg Jets,25,0,1,1,25091,-5
+8478463,Anthony Beauvillier,L,New York Islanders,47,15,13,28,46251,15
+8477930,Pierre-Edouard Bellemare,C,Colorado Avalanche,53,9,2,11,36019,6
+8479356,Kieffer Bellows,L,New York Islanders,14,3,0,3,9257,0
+8478011,Louie Belpedio,D,Minnesota Wild,1,0,0,0,838,-1
+8475968,Alex Belzile,R,Montréal Canadiens,2,0,1,1,1277,-1
+8480205,Emil Bemstrom,C,Columbus Blue Jackets,20,3,2,5,15427,2
+8473994,Jamie Benn,L,Dallas Stars,52,11,24,35,55485,13
+8474818,Jordie Benn,D,"Vancouver Canucks,Winnipeg Jets",39,1,9,10,34527,7
+8477935,Sam Bennett,C,"Calgary Flames,Florida Panthers",48,10,17,27,41534,-2
+8476988,Matt Benning,D,Nashville Predators,53,1,3,4,51924,-1
+8481122,Simon Benoit,D,Anaheim Ducks,6,0,0,0,6191,-3
+8470638,Patrice Bergeron,C,Boston Bruins,54,23,25,48,59039,27
+8481640,Lean Bergmann,C,San Jose Sharks,1,0,0,0,619,-1
+8480879,Jacob Bernard-Docker,D,Ottawa Senators,5,0,0,0,4098,2
+8477479,Tyler Bertuzzi,L,Detroit Red Wings,9,5,2,7,10592,0
+8473415,Alex Biega,D,Detroit Red Wings,13,0,3,3,8316,-1
+8478056,Clark Bishop,C,Ottawa Senators,13,0,3,3,7388,2
+8475868,Anthony Bitetto,D,New York Rangers,14,1,3,4,12130,-8
+8478075,Anders Bjork,L,"Boston Bruins,Buffalo Sabres",45,5,6,11,37481,-13
+8477416,Oliver Bjorkstrand,R,Columbus Blue Jackets,56,18,26,44,59168,-15
+8481600,Tobias Bjornfot,D,Los Angeles Kings,33,1,5,6,33349,-3
+8475760,Nick Bjugstad,C,Minnesota Wild,44,6,11,17,31180,7
+8476278,Colin Blackwell,C,New York Rangers,47,12,10,22,39498,2
+8478104,Sammy Blais,L,St. Louis Blues,36,8,7,15,26059,0
+8479571,Joachim Blichfeld,R,San Jose Sharks,5,1,0,1,2607,-2
+8477320,Anton Blidh,L,Boston Bruins,10,1,0,1,6464,-5
+8476927,Teddy Blueger,C,Pittsburgh Penguins,43,7,15,22,38313,10
+8478444,Brock Boeser,R,Vancouver Canucks,56,23,26,49,64914,-3
+8474567,Zach Bogosian,D,Toronto Maple Leafs,45,0,4,4,39250,7
+8474009,Nick Bonino,C,Minnesota Wild,55,10,16,26,49024,0
+8480871,Adam Boqvist,D,Chicago Blackhawks,35,2,14,16,35679,-7
+8480003,Jesper Boqvist,C,New Jersey Devils,28,4,3,7,18740,-5
+8478840,Will Borgen,D,Buffalo Sabres,10,0,0,0,9758,-4
+8480158,Andreas Borgman,D,Tampa Bay Lightning,7,0,2,2,5023,-2
+8474697,Mark Borowiecki,D,Nashville Predators,22,0,1,1,18053,-2
+8474145,Robert Bortuzzo,D,St. Louis Blues,40,1,4,5,33991,-3
+8480803,Evan Bouchard,D,Edmonton Oilers,14,2,3,5,12461,-2
+8477474,Madison Bowey,D,Chicago Blackhawks,2,0,1,1,1337,1
+8476329,Travis Boyd,C,"Toronto Maple Leafs,Vancouver Canucks",39,5,5,10,25102,-5
+8475098,Tyler Bozak,C,St. Louis Blues,31,5,12,17,27738,-3
+8480073,Erik Brannstrom,D,Ottawa Senators,30,2,11,13,29444,3
+8473544,Derick Brassard,C,Arizona Coyotes,53,8,12,20,47050,-10
+8479407,Jesper Bratt,L,New Jersey Devils,46,7,23,30,44370,4
+8474027,Justin Braun,D,Philadelphia Flyers,53,1,5,6,58924,0
+8478465,Guillaume Brisebois,D,Vancouver Canucks,1,0,0,0,691,0
+8474673,TJ Brodie,D,Toronto Maple Leafs,56,1,13,14,72433,23
+8476463,Jonas Brodin,D,Minnesota Wild,53,9,14,23,71341,2
+8477380,Jonny Brodzinski,C,New York Rangers,5,1,0,1,3400,0
+8482240,Mathias Brome,L,Detroit Red Wings,26,1,1,2,21291,-9
+8478996,Adam Brooks,C,Toronto Maple Leafs,11,4,1,5,7047,4
+8477015,Connor Brown,R,Ottawa Senators,56,21,14,35,61294,1
+8470606,Dustin Brown,R,Los Angeles Kings,49,17,14,31,51806,-3
+8477384,Josh Brown,D,Ottawa Senators,26,0,1,1,22060,-1
+8479366,Logan Brown,C,Ottawa Senators,1,0,0,0,580,0
+8477887,Patrick Brown,C,Vegas Golden Knights,4,0,0,0,2183,0
+8480196,Jacob Bryson,D,Buffalo Sabres,38,1,8,9,43424,-1
+8477402,Pavel Buchnevich,L,New York Rangers,54,20,28,48,60694,12
+8479382,Connor Bunnaman,C,Philadelphia Flyers,18,0,1,1,12488,-6
+8478047,Michael Bunting,L,Arizona Coyotes,21,10,3,13,21032,-1
+8477444,Andre Burakovsky,L,Colorado Avalanche,53,19,25,44,47993,4
+8470613,Brent Burns,D,San Jose Sharks,56,7,22,29,87836,-13
+8477335,Kyle Burroughs,D,Colorado Avalanche,5,0,1,1,3024,1
+8477355,Will Butcher,D,New Jersey Devils,23,1,10,11,26264,-3
+8482124,Quinton Byfield,C,Los Angeles Kings,6,0,1,1,5403,1
+8481524,Bowen Byram,D,Colorado Avalanche,19,0,2,2,19963,1
+8474038,Paul Byron,L,Montréal Canadiens,46,5,11,16,35474,5
+8479381,Nick Caamano,L,Dallas Stars,24,0,1,1,13454,-7
+8479465,Drake Caggiula,C,"Arizona Coyotes,Buffalo Sabres",38,3,7,10,28278,-6
+8474685,Matt Calvert,L,Colorado Avalanche,18,0,3,3,14915,-2
+8478476,Kyle Capobianco,D,Arizona Coyotes,2,0,0,0,1735,-2
+8478443,Brandon Carlo,D,Boston Bruins,27,3,1,4,30309,1
+8474590,John Carlson,D,Washington Capitals,52,10,34,44,74200,-5
+8478506,Gabriel Carlsson,D,Columbus Blue Jackets,14,1,3,4,12419,-6
+8479523,Lucas Carlsson,D,Chicago Blackhawks,12,0,1,1,9404,1
+8477846,Ryan Carpenter,C,Chicago Blackhawks,40,4,1,5,30459,-10
+8477901,Daniel Carr,L,Washington Capitals,6,0,1,1,3682,-2
+8476941,Connor Carrick,D,New Jersey Devils,11,1,1,2,12322,-2
+8475842,Sam Carrick,C,Anaheim Ducks,13,2,4,6,10079,4
+8478851,Alexandre Carrier,D,Nashville Predators,19,1,2,3,22854,3
+8477478,William Carrier,L,Vegas Golden Knights,52,6,9,15,32483,0
+8470604,Jeff Carter,C,"Los Angeles Kings,Pittsburgh Penguins",54,17,13,30,53671,3
+8482654,Jackson Cates,C,Philadelphia Flyers,4,0,1,1,2544,-3
+8481540,Cole Caufield,R,Montréal Canadiens,10,4,1,5,8376,-1
+8476879,Cody Ceci,D,Pittsburgh Penguins,53,4,13,17,58888,18
+8478416,Erik Cernak,D,Tampa Bay Lightning,46,5,13,18,54605,8
+8478469,Thomas Chabot,D,Ottawa Senators,49,6,25,31,77275,-15
+8475808,Michael Chaput,C,Arizona Coyotes,13,0,0,0,7334,-7
+8465009,Zdeno Chara,D,Washington Capitals,55,2,8,10,60463,5
+8478970,Jalen Chatfield,D,Vancouver Canucks,18,0,1,1,14512,-11
+8480276,Ivan Chekhovich,L,San Jose Sharks,4,0,1,1,2517,-3
+8475279,Ben Chiarot,D,Montréal Canadiens,41,1,6,7,53597,-16
+8475163,Alex Chiasson,R,Edmonton Oilers,45,9,7,16,33707,-10
+8478488,Filip Chlapik,C,Ottawa Senators,1,0,0,0,431,1
+8480053,Alexander Chmelevski,C,San Jose Sharks,5,0,2,2,2926,-2
+8479395,Dennis Cholowski,D,Detroit Red Wings,16,1,2,3,15261,-1
+8479345,Jakob Chychrun,D,Arizona Coyotes,56,18,23,41,78584,-6
+8480078,Filip Chytil,C,New York Rangers,42,8,14,22,33327,9
+8478519,Anthony Cirelli,C,Tampa Bay Lightning,50,9,13,22,53241,0
+8475231,Casey Cizikas,C,New York Islanders,56,7,7,14,46484,-2
+8476368,Fredrik Claesson,D,"San Jose Sharks,Tampa Bay Lightning",6,0,0,0,4459,0
+8479348,Kale Clague,D,Los Angeles Kings,18,0,6,6,18582,-6
+8475160,Kyle Clifford,L,St. Louis Blues,50,4,3,7,29795,-5
+8477365,Connor Clifton,D,Boston Bruins,44,1,6,7,48092,10
+8473504,Cal Clutterbuck,R,New York Islanders,50,4,7,11,40309,-5
+8470601,Braydon Coburn,D,"Ottawa Senators,New York Islanders",19,0,2,2,18291,-3
+8479639,Dylan Coghlan,D,Vegas Golden Knights,29,3,3,6,23469,-3
+8471699,Andrew Cogliano,C,Dallas Stars,54,5,6,11,45121,-8
+8474013,Ian Cole,D,"Colorado Avalanche,Minnesota Wild",54,1,7,8,51447,21
+8476399,Blake Coleman,C,Tampa Bay Lightning,55,14,17,31,51035,15
+8479525,Ross Colton,C,Tampa Bay Lightning,30,9,3,12,19016,3
+8471260,Blake Comeau,R,Dallas Stars,51,4,10,14,48165,-13
+8477456,J.T. Compher,L,Colorado Avalanche,48,10,8,18,40946,10
+8480031,Max Comtois,L,Anaheim Ducks,55,16,17,33,51059,3
+8475246,Kevin Connauton,D,Florida Panthers,7,0,1,1,5970,4
+8475792,Brett Connolly,R,"Florida Panthers,Chicago Blackhawks",31,3,3,6,22589,3
+8478398,Kyle Connor,L,Winnipeg Jets,56,26,24,50,62961,-4
+8477429,Andrew Copp,C,Winnipeg Jets,55,15,24,39,60226,2
+8476393,Nick Cousins,C,Nashville Predators,52,5,13,18,41686,4
+8474053,Logan Couture,C,San Jose Sharks,53,17,14,31,61255,-11
+8476461,Sean Couturier,C,Philadelphia Flyers,45,18,23,41,52186,-4
+8475745,Charlie Coyle,C,Boston Bruins,51,6,10,16,49845,-4
+8481528,Dylan Cozens,C,Buffalo Sabres,41,4,9,13,35316,-15
+8476390,Joseph Cramarossa,C,Minnesota Wild,4,0,1,1,2584,-1
+8471675,Sidney Crosby,C,Pittsburgh Penguins,55,24,38,62,67314,8
+8478474,Lawson Crouse,L,Arizona Coyotes,51,4,9,13,43749,-10
+8477680,Josh Currie,R,Pittsburgh Penguins,1,0,0,0,444,0
+8478512,Austin Czarnik,C,New York Islanders,4,0,0,0,2998,-1
+8477814,Kevin Czuczman,D,Pittsburgh Penguins,2,0,0,0,1398,-3
+8481523,Kirby Dach,C,Chicago Blackhawks,18,2,8,10,20057,-3
+8474149,Evgenii Dadonov,R,Ottawa Senators,55,13,7,20,51410,-9
+8480839,Rasmus Dahlin,D,Buffalo Sabres,56,5,18,23,72603,-36
+8477936,Michael Dal Colle,L,New York Islanders,26,1,3,4,18572,1
+8474610,Zac Dalpe,C,Columbus Blue Jackets,12,2,1,3,7649,-2
+8476479,Phillip Danault,C,Montréal Canadiens,53,5,19,24,53645,9
+8475869,Brandon Davidson,D,Buffalo Sabres,6,0,0,0,5521,-4
+8479602,Jeremy Davies,D,Nashville Predators,16,0,1,1,14439,3
+8475177,Calvin de Haan,D,Chicago Blackhawks,44,1,9,10,49149,-16
+8477455,Jacob de la Rose,L,St. Louis Blues,13,0,1,1,7955,-2
+8478029,Chase De Leo,C,Anaheim Ducks,1,0,0,0,806,-2
+8477520,Jean-Sebastien Dea,C,Buffalo Sabres,1,0,0,0,333,-1
+8477950,Tony DeAngelo,D,New York Rangers,6,0,1,1,6651,-6
+8479337,Alex DeBrincat,L,Chicago Blackhawks,52,32,24,56,64084,3
+8478498,Jake DeBrusk,L,Boston Bruins,41,5,9,14,36639,1
+8477215,Danny DeKeyser,D,Detroit Red Wings,47,4,8,12,51041,3
+8474584,Michael Del Zotto,D,Columbus Blue Jackets,53,4,9,13,56879,5
+8480848,Ty Dellandrea,C,Dallas Stars,26,3,2,5,19478,0
+8476331,Dylan DeMelo,D,Winnipeg Jets,52,0,9,9,52949,10
+8474218,Jason Demers,D,Arizona Coyotes,41,0,4,4,42406,-4
+8480844,Grigori Denisenko,L,Florida Panthers,7,0,4,4,5015,1
+8478408,Travis Dermott,D,Toronto Maple Leafs,51,2,4,6,40466,-1
+8475235,Nicolas Deslauriers,L,Anaheim Ducks,49,5,5,10,33274,-7
+8476858,Phillip Di Giuseppe,L,New York Rangers,31,1,7,8,20633,2
+8477450,Jason Dickinson,C,Dallas Stars,51,7,8,15,49554,-2
+8475455,Brenden Dillon,D,Washington Capitals,56,2,17,19,63650,15
+8477043,Christian Djoos,D,Detroit Red Wings,36,2,9,11,32583,-13
+8480865,Noah Dobson,D,New York Islanders,46,3,11,14,45247,1
+8477503,Max Domi,C,Columbus Blue Jackets,54,9,15,24,49319,-18
+8477987,Ryan Donato,C,San Jose Sharks,50,6,14,20,37805,-11
+8475820,Joonas Donskoi,R,Colorado Avalanche,51,17,14,31,44490,14
+8474563,Drew Doughty,D,Los Angeles Kings,56,8,26,34,88640,-14
+8475343,Nic Dowd,C,Washington Capitals,56,11,4,15,48284,4
+8475413,Justin Dowling,C,Dallas Stars,27,1,4,5,17935,-4
+8477934,Leon Draisaitl,C,Edmonton Oilers,56,31,53,84,74553,29
+8480326,Sheldon Dries,C,Colorado Avalanche,3,0,0,0,1406,1
+8477494,Jonathan Drouin,L,Montréal Canadiens,44,2,21,23,42477,-8
+8482142,Jamie Drysdale,D,Anaheim Ducks,24,3,5,8,28199,-12
+8479346,Dillon Dube,C,Calgary Flames,51,11,11,22,41731,-1
+8479400,Pierre-Luc Dubois,L,"Columbus Blue Jackets,Winnipeg Jets",46,9,12,21,41489,-8
+8475168,Matt Duchene,C,Nashville Predators,34,6,7,13,32298,-12
+8477407,Anthony Duclair,L,Florida Panthers,43,10,22,32,40466,27
+8476856,Matt Dumba,D,Minnesota Wild,51,6,15,21,68176,1
+8475208,Brian Dumoulin,D,Pittsburgh Penguins,41,4,10,14,54992,18
+8478407,Vince Dunn,D,St. Louis Blues,43,6,14,20,49663,-8
+8482623,Josh Dunne,C,Columbus Blue Jackets,6,0,0,0,3739,-1
+8477989,Christian Dvorak,C,Arizona Coyotes,56,17,14,31,61847,-11
+8476288,Ryan Dzingel,C,"Carolina Hurricanes,Ottawa Senators",40,8,5,13,30498,-5
+8475236,Cody Eakin,C,Buffalo Sabres,46,3,4,7,35698,-9
+8474586,Jordan Eberle,R,New York Islanders,55,16,17,33,55302,9
+8471303,Alexander Edler,D,Vancouver Canucks,52,0,8,8,65228,-8
+8476441,Joel Edmundson,D,Montréal Canadiens,55,3,10,13,66156,28
+8477940,Nikolaj Ehlers,L,Winnipeg Jets,47,21,25,46,47714,15
+8478403,Jack Eichel,C,Buffalo Sabres,21,2,16,18,25827,-9
+8477932,Aaron Ekblad,D,Florida Panthers,35,11,11,22,52691,5
+8475218,Mattias Ekholm,D,Nashville Predators,48,6,17,23,65869,19
+8475171,Oliver Ekman-Larsson,D,Arizona Coyotes,46,3,21,24,57887,-17
+8474189,Lars Eller,C,Washington Capitals,44,8,15,23,43144,-1
+8475176,Ryan Ellis,D,Nashville Predators,35,5,13,18,49911,1
+8478115,Pierre Engvall,L,Toronto Maple Leafs,42,7,5,12,30062,2
+8474589,Tyler Ennis,C,Edmonton Oilers,30,3,6,9,21827,0
+8480025,MacKenzie Entwistle,R,Chicago Blackhawks,5,1,1,2,2945,1
+8470626,Loui Eriksson,L,Vancouver Canucks,7,0,1,1,4023,-3
+8478493,Joel Eriksson Ek,C,Minnesota Wild,56,19,11,30,57315,16
+8477454,Adam Erne,L,Detroit Red Wings,45,11,9,20,37587,-1
+8478133,Jake Evans,C,Montréal Canadiens,47,3,10,13,33375,2
+8477952,Robby Fabbri,C,Detroit Red Wings,30,10,8,18,31085,3
+8479371,Dante Fabbro,D,Nashville Predators,40,2,10,12,46356,-1
+8476889,Radek Faksa,C,Dallas Stars,55,6,8,14,57521,-15
+8480797,Joel Farabee,L,Philadelphia Flyers,55,20,18,38,52860,0
+8480063,David Farrance,D,Nashville Predators,2,0,0,0,2175,3
+8477392,Hudson Fasching,R,Arizona Coyotes,5,0,0,0,2839,-3
+8475855,Jesper Fast,R,Carolina Hurricanes,46,6,13,19,42219,-4
+8475753,Justin Faulk,D,St. Louis Blues,56,7,18,25,81512,11
+8479983,Mario Ferraro,D,San Jose Sharks,56,1,16,17,75350,-6
+8477942,Kevin Fiala,L,Minnesota Wild,50,20,20,40,50699,-2
+8470047,Valtteri Filppula,C,Detroit Red Wings,38,6,9,15,35562,-1
+8478432,Christian Fischer,R,Arizona Coyotes,52,3,8,11,39778,-10
+8477938,Haydn Fleury,D,"Carolina Hurricanes,Anaheim Ducks",47,3,1,4,43421,-12
+8477998,Warren Foegele,L,Carolina Hurricanes,53,10,10,20,45010,4
+8476396,Steven Fogarty,C,Buffalo Sabres,9,1,2,3,6334,2
+8475220,Marcus Foligno,L,Minnesota Wild,39,11,15,26,35012,19
+8473422,Nick Foligno,L,"Columbus Blue Jackets,Toronto Maple Leafs",49,7,13,20,52239,2
+8479984,Cal Foote,D,Tampa Bay Lightning,35,1,2,3,27067,9
+8481518,Nolan Foote,L,New Jersey Devils,6,1,1,2,3487,-1
+8475762,Derek Forbort,D,Winnipeg Jets,56,2,10,12,69694,1
+8480029,Alex Formenton,L,Ottawa Senators,20,4,2,6,14393,6
+8476887,Filip Forsberg,L,Nashville Predators,39,12,20,32,42802,-9
+8478055,Gustav Forsling,D,Florida Panthers,43,5,12,17,51453,17
+8480853,Liam Foudy,C,Columbus Blue Jackets,24,0,4,4,18134,0
+8475764,Cam Fowler,D,Anaheim Ducks,56,5,18,23,73115,-4
+8479323,Adam Fox,D,New York Rangers,55,5,42,47,81531,19
+8479365,Trent Frederic,C,Boston Bruins,42,4,1,5,28363,-8
+8478017,Mark Friedman,D,"Philadelphia Flyers,Pittsburgh Penguins",9,2,1,3,5965,1
+8476924,Martin Frk,R,Los Angeles Kings,1,0,0,0,561,-1
+8475278,Byron Froese,C,Calgary Flames,6,1,0,1,2985,1
+8473564,Michael Frolik,R,Montréal Canadiens,8,0,0,0,5494,-3
+8480028,Morgan Frost,C,Philadelphia Flyers,2,0,0,0,1228,0
+8476545,Kurtis Gabriel,R,San Jose Sharks,11,0,0,0,5060,1
+8479981,Jonah Gadjovich,L,Vancouver Canucks,1,0,0,0,295,-1
+8474040,Sam Gagner,C,Detroit Red Wings,42,7,8,15,38911,-4
+8476851,Alex Galchenyuk,C,"Ottawa Senators,Toronto Maple Leafs",34,5,8,13,25921,-8
+8475848,Brendan Gallagher,R,Montréal Canadiens,35,14,9,23,31520,10
+8479580,Dylan Gambrell,C,San Jose Sharks,49,5,7,12,47124,-18
+8474581,Jake Gardiner,D,Carolina Hurricanes,26,0,8,8,25034,-1
+8479587,Rhett Gardner,C,Dallas Stars,28,1,1,2,16738,-9
+8478856,Conor Garland,R,Arizona Coyotes,49,12,27,39,52687,-3
+8478874,Adam Gaudette,C,"Vancouver Canucks,Chicago Blackhawks",40,5,6,11,26691,-15
+8477919,Frederick Gaudreau,C,Pittsburgh Penguins,19,2,8,10,14893,10
+8476346,Johnny Gaudreau,L,Calgary Flames,56,19,30,49,61870,2
+8477512,Frederik Gauthier,C,Arizona Coyotes,2,0,0,0,809,0
+8479328,Julien Gauthier,R,New York Rangers,30,2,6,8,17357,-6
+8478882,Vladislav Gavrikov,D,Columbus Blue Jackets,55,2,10,12,64024,-13
+8478446,Glenn Gawdin,C,Calgary Flames,7,0,1,1,2908,-1
+8479987,Morgan Geekie,C,Carolina Hurricanes,36,3,6,9,21140,1
+8471804,Nathan Gerbe,C,Columbus Blue Jackets,9,1,2,3,6002,0
+8479364,Tim Gettinger,L,New York Rangers,2,0,0,0,1406,-2
+8470612,Ryan Getzlaf,C,Anaheim Ducks,48,5,12,17,47749,-14
+8478502,Dennis Gilbert,D,Colorado Avalanche,3,0,0,0,1209,0
+8470966,Mark Giordano,D,Calgary Flames,56,9,17,26,77085,5
+8479398,Samuel Girard,D,Colorado Avalanche,48,5,27,32,66887,15
+8473512,Claude Giroux,C,Philadelphia Flyers,54,16,27,43,58662,-4
+8479996,Cody Glass,C,Vegas Golden Knights,27,4,6,10,23555,6
+8476822,Luke Glendening,C,Detroit Red Wings,54,6,9,15,47966,3
+8471274,Alex Goligoski,D,Arizona Coyotes,56,3,19,22,77302,2
+8476624,Barclay Goodrow,C,Tampa Bay Lightning,55,6,14,20,49898,16
+8476906,Shayne Gostisbehere,D,Philadelphia Flyers,41,9,11,20,49053,-2
+8476826,Yanni Gourde,C,Tampa Bay Lightning,56,17,19,36,57368,10
+8475798,Mikael Granlund,C,Nashville Predators,51,13,14,27,59543,-1
+8474683,Derek Grant,C,Anaheim Ducks,46,6,9,15,40198,-4
+8476344,Tyler Graovac,C,Vancouver Canucks,14,3,1,4,8169,-3
+8477435,Ryan Graves,D,Colorado Avalanche,54,2,13,15,61741,15
+8472382,Andy Greene,D,New York Islanders,55,1,4,5,58007,9
+8478413,Jordan Greenway,L,Minnesota Wild,56,6,26,32,53070,5
+8478421,A.J. Greer,L,New Jersey Devils,1,0,0,0,513,0
+8479393,Noah Gregor,C,San Jose Sharks,30,5,1,6,21104,-16
+8476888,Mikhail Grigorenko,C,Columbus Blue Jackets,32,4,8,12,26407,-2
+8476428,Rocco Grimaldi,R,Nashville Predators,40,10,3,13,30764,-3
+8480913,Jordan Gross,D,Arizona Coyotes,7,0,3,3,5539,-3
+8479336,Carl Grundstrom,R,Los Angeles Kings,47,6,5,11,35179,-10
+8476891,Matt Grzelcyk,D,Boston Bruins,37,5,15,20,43831,11
+8475462,Radko Gudas,D,Florida Panthers,54,2,9,11,56925,6
+8475790,Erik Gudbranson,D,"Ottawa Senators,Nashville Predators",45,1,3,4,48353,-12
+8477404,Jake Guentzel,L,Pittsburgh Penguins,56,23,34,57,68098,7
+8474125,Carl Gunnarsson,D,St. Louis Blues,12,0,2,2,10387,-2
+8478495,Denis Gurianov,R,Dallas Stars,55,12,18,30,52308,0
+8477038,Nikita Gusev,L,"New Jersey Devils,Florida Panthers",31,4,6,10,26695,-12
+8481019,David Gustafsson,C,Winnipeg Jets,4,0,0,0,1396,-1
+8476979,Erik Gustafsson,D,"Philadelphia Flyers,Montréal Canadiens",29,1,11,12,29080,-1
+8481813,Gaetan Haas,C,Edmonton Oilers,34,2,1,3,23153,-6
+8479542,Brandon Hagel,L,Chicago Blackhawks,52,9,15,24,43645,-7
+8474176,Carl Hagelin,L,Washington Capitals,56,6,10,16,47379,7
+8477462,Robert Hagg,D,Philadelphia Flyers,34,2,3,5,31959,-3
+8479980,Nicolas Hague,D,Vegas Golden Knights,52,5,12,17,49905,14
+8479333,Libor Hajek,D,New York Rangers,44,2,2,4,40316,2
+8475825,Jani Hakanpaa,D,"Anaheim Ducks,Carolina Hurricanes",57,2,2,4,61632,4
+8474230,Micheal Haley,L,Ottawa Senators,4,0,0,0,1450,-1
+8475791,Taylor Hall,L,"Buffalo Sabres,Boston Bruins",53,10,23,33,56793,-6
+8476462,Dougie Hamilton,D,Carolina Hurricanes,55,10,32,42,74983,20
+8474612,Travis Hamonic,D,Vancouver Canucks,38,3,7,10,44157,-3
+8482248,Fredrik Handemark,C,San Jose Sharks,8,1,0,1,4538,-3
+8478396,Noah Hanifin,D,Calgary Flames,47,4,11,15,56434,-2
+8477810,Joel Hanley,D,Dallas Stars,35,0,8,8,27337,6
+8482635,Mike Hardman,L,Chicago Blackhawks,8,1,2,3,5274,0
+8478424,Jansen Harkins,C,Winnipeg Jets,26,1,1,2,13099,-2
+8477433,Ben Harpur,D,Nashville Predators,34,0,7,7,33519,2
+8476449,Scott Harrington,D,Columbus Blue Jackets,12,1,2,3,11767,-3
+8477451,Ryan Hartman,R,Minnesota Wild,51,7,15,22,46118,0
+8477903,Garnet Hathaway,R,Washington Capitals,56,6,12,18,41395,7
+8475287,Erik Haula,L,Nashville Predators,51,9,12,21,48969,4
+8477963,Jayce Hawryluk,C,Vancouver Canucks,30,2,3,5,17353,-7
+8477401,John Hayden,C,Arizona Coyotes,29,2,3,5,17076,-4
+8475763,Kevin Hayes,C,Philadelphia Flyers,55,12,19,31,57824,-2
+8480849,Barrett Hayton,C,Arizona Coyotes,14,2,1,3,9651,-1
+8475167,Victor Hedman,D,Tampa Bay Lightning,54,9,36,45,81146,5
+8478046,Danton Heinen,L,Anaheim Ducks,43,7,7,14,38092,-9
+8481572,Ville Heinola,D,Winnipeg Jets,5,0,0,0,4659,-2
+8480036,Miro Heiskanen,D,Dallas Stars,55,8,19,27,82393,-9
+8471794,Darren Helm,C,Detroit Red Wings,47,3,5,8,41391,-3
+8474641,Adam Henrique,C,Anaheim Ducks,45,12,9,21,43308,-8
+8480037,Aleksi Heponiemi,C,Florida Panthers,9,1,1,2,6608,1
+8476881,Tomas Hertl,C,San Jose Sharks,50,19,24,43,57407,1
+8474066,Thomas Hickey,D,New York Islanders,5,0,2,2,4878,5
+8478146,Matthew Highmore,C,"Chicago Blackhawks,Vancouver Canucks",42,3,4,7,29314,-5
+8476994,Vinnie Hinostroza,C,"Florida Panthers,Chicago Blackhawks",26,4,8,12,19148,0
+8478449,Roope Hintz,C,Dallas Stars,41,15,28,43,44851,13
+8481433,Taro Hirose,L,Detroit Red Wings,6,0,2,2,5173,2
+8480002,Nico Hischier,C,New Jersey Devils,21,6,5,11,23332,-9
+8471769,Niklas Hjalmarsson,D,Arizona Coyotes,41,0,5,5,42707,-6
+8474884,Mike Hoffman,C,St. Louis Blues,52,17,19,36,47000,2
+8481535,Nils Hoglander,L,Vancouver Canucks,56,13,14,27,51887,-4
+8474207,Nick Holden,D,Vegas Golden Knights,17,0,2,2,16160,3
+8475718,Justin Holl,D,Toronto Maple Leafs,55,2,18,20,69508,16
+8471887,Patric Hornqvist,R,Florida Panthers,44,14,18,32,44308,-3
+8477500,Bo Horvat,C,Vancouver Canucks,56,19,20,39,66829,-6
+8479353,Brett Howden,C,New York Rangers,42,1,6,7,31650,-2
+8479425,Filip Hronek,D,Detroit Red Wings,56,2,24,26,78577,-18
+8476456,Jonathan Huberdeau,L,Florida Panthers,55,20,41,61,60754,12
+8478888,Cameron Hughes,C,Boston Bruins,1,0,0,0,965,-1
+8481559,Jack Hughes,C,New Jersey Devils,56,11,20,31,64052,-3
+8480800,Quinn Hughes,D,Vancouver Canucks,56,3,38,41,76623,-24
+8476779,Brad Hunt,D,Minnesota Wild,12,1,0,1,8880,-8
+8478211,Dryden Hunt,L,Arizona Coyotes,26,3,5,8,18677,-6
+8477018,Ben Hutton,D,"Anaheim Ducks,Toronto Maple Leafs",38,1,4,5,42086,-13
+8475786,Zach Hyman,L,Toronto Maple Leafs,43,15,18,33,49961,19
+8480113,Alex Iafallo,L,Los Angeles Kings,55,13,17,30,65628,-8
+8475625,Matt Irwin,D,Buffalo Sabres,24,0,2,2,23401,-10
+8476873,Mark Jankowski,C,Pittsburgh Penguins,45,4,7,11,28920,4
+8477406,Mattias Janmark,C,"Chicago Blackhawks,Vegas Golden Knights",56,11,13,24,57433,-12
+8475714,Calle Jarnkrok,C,Nashville Predators,49,13,15,28,49388,13
+8478868,Christian Jaros,D,San Jose Sharks,7,0,1,1,4698,-4
+8479661,Tanner Jeannot,L,Nashville Predators,15,5,2,7,10917,6
+8480890,Jan Jenik,R,Arizona Coyotes,2,2,0,2,1450,3
+8476432,Boone Jenner,C,Columbus Blue Jackets,41,8,9,17,44278,-9
+8475324,Nick Jensen,D,Washington Capitals,53,2,12,14,55036,5
+8475793,Ryan Johansen,C,Nashville Predators,48,7,15,22,48797,0
+8475149,Marcus Johansson,C,Minnesota Wild,36,6,8,14,34422,-10
+8473446,Erik Johnson,D,Colorado Avalanche,4,0,1,1,3222,2
+8471677,Jack Johnson,D,New York Rangers,13,1,0,1,13234,-5
+8477366,Luke Johnson,C,Minnesota Wild,14,1,0,1,8487,-5
+8481147,Reese Johnson,C,Chicago Blackhawks,5,0,0,0,2384,-2
+8474870,Tyler Johnson,C,Tampa Bay Lightning,55,8,14,22,45090,-1
+8477341,Andreas Johnsson,L,New Jersey Devils,50,5,6,11,41802,-1
+8477527,Ross Johnston,L,New York Islanders,12,0,1,1,6291,-3
+8480035,Henri Jokiharju,D,Buffalo Sabres,46,3,5,8,50730,-11
+8478452,Caleb Jones,D,Edmonton Oilers,33,0,4,4,26942,-7
+8479368,Max Jones,L,Anaheim Ducks,46,7,4,11,39105,-9
+8477495,Seth Jones,D,Columbus Blue Jackets,56,5,23,28,84764,-18
+8481708,Zac Jones,D,New York Rangers,10,0,4,4,8990,-2
+8478472,Mathieu Joseph,R,Tampa Bay Lightning,56,12,7,19,36733,3
+8480058,Pierre-Olivier Joseph,D,Pittsburgh Penguins,16,1,4,5,16117,1
+8478057,Dakota Joshua,C,St. Louis Blues,12,1,0,1,6457,-3
+8474600,Roman Josi,D,Nashville Predators,48,8,25,33,70117,-11
+8479370,Tyson Jost,C,Colorado Avalanche,54,7,10,17,45758,14
+8479355,Olli Juolevi,D,Vancouver Canucks,23,2,1,3,18229,-1
+8476430,Tomas Jurco,R,Vegas Golden Knights,8,0,1,1,4300,0
+8478454,Noah Juulsen,D,Florida Panthers,4,0,0,0,2872,-3
+8475172,Nazem Kadri,C,Colorado Avalanche,56,11,21,32,55339,-7
+8480946,Dominik Kahun,C,Edmonton Oilers,48,9,6,15,36922,-3
+8481554,Kaapo Kakko,R,New York Rangers,48,9,8,17,41321,3
+8481560,Arthur Kaliyev,R,Los Angeles Kings,1,1,0,1,882,-1
+8480293,Wyatt Kalynuk,D,Chicago Blackhawks,21,4,5,9,20502,-6
+8480144,David Kampf,C,Chicago Blackhawks,56,1,11,12,49281,-3
+8474000,Steven Kampfer,D,Boston Bruins,20,2,3,5,20047,3
+8475169,Evander Kane,L,San Jose Sharks,56,22,27,49,67862,-1
+8474141,Patrick Kane,R,Chicago Blackhawks,56,15,51,66,74692,-7
+8477953,Kasperi Kapanen,R,Pittsburgh Penguins,40,11,19,30,37276,15
+8478864,Kirill Kaprizov,L,Minnesota Wild,55,27,24,51,60382,10
+8474578,Erik Karlsson,D,San Jose Sharks,52,8,14,22,73609,-18
+8476448,William Karlsson,C,Vegas Golden Knights,56,14,25,39,62726,19
+8478436,David Kase,R,Philadelphia Flyers,1,0,0,0,658,0
+8478131,Ondrej Kase,R,Boston Bruins,3,0,0,0,1531,0
+8475178,Zack Kassian,R,Edmonton Oilers,27,2,3,5,19205,-4
+8480822,Martin Kaut,R,Colorado Avalanche,5,0,0,0,2399,-1
+8480466,Joey Keane,D,Carolina Hurricanes,1,0,0,0,1174,-1
+8481442,Brady Keeper,D,Florida Panthers,1,0,0,0,568,0
+8470281,Duncan Keith,D,Chicago Blackhawks,54,4,11,15,75847,-13
+8479343,Clayton Keller,R,Arizona Coyotes,56,14,21,35,55972,-5
+8481516,Joel Kellman,C,San Jose Sharks,7,1,1,2,4484,-1
+8480448,Parker Kelly,C,Ottawa Senators,1,1,0,1,452,1
+8477960,Adrian Kempe,C,Los Angeles Kings,56,14,15,29,56893,-18
+8477021,Alexander Kerfoot,C,Toronto Maple Leafs,56,8,15,23,48533,2
+8478528,Tanner Kero,C,Dallas Stars,39,3,7,10,24803,0
+8473548,Phil Kessel,R,Arizona Coyotes,56,20,23,43,57417,-17
+8476915,Jujhar Khaira,L,Edmonton Oilers,40,3,8,11,28918,-1
+8482641,Matt Kiersted,D,Florida Panthers,7,0,0,0,6372,-4
+8473986,Alex Killorn,L,Tampa Bay Lightning,56,15,18,33,60163,-1
+8481641,Joel Kiviranta,L,Dallas Stars,26,6,5,11,18991,3
+8475906,John Klingberg,D,Dallas Stars,53,7,29,36,72173,-15
+8481812,Nikolai Knyzhov,D,San Jose Sharks,56,2,8,10,56249,-9
+8476886,Slater Koekkoek,D,Edmonton Oilers,18,1,0,1,14217,-7
+8469459,Mikko Koivu,C,Columbus Blue Jackets,7,1,1,2,5234,-2
+8478434,Keegan Kolesar,R,Vegas Golden Knights,44,3,10,13,25202,-4
+8473463,Leo Komarov,R,New York Islanders,33,1,7,8,25408,7
+8478439,Travis Konecny,R,Philadelphia Flyers,50,11,23,34,47688,-5
+8471685,Anze Kopitar,C,Los Angeles Kings,56,13,37,50,71174,-7
+8480011,Klim Kostin,C,St. Louis Blues,2,0,1,1,1656,-1
+8480829,Jesperi Kotkaniemi,C,Montréal Canadiens,56,5,15,20,49717,-1
+8480833,Vitali Kravtsov,R,New York Rangers,20,2,2,4,14876,-6
+8481522,Peyton Krebs,C,Vegas Golden Knights,4,0,1,1,2744,1
+8475184,Chris Kreider,L,New York Rangers,50,20,10,30,52192,-1
+8471276,David Krejci,C,Boston Bruins,51,8,36,44,52432,16
+8476792,Torey Krug,D,St. Louis Blues,51,2,30,32,68998,11
+8477330,Dominik Kubalik,L,Chicago Blackhawks,56,17,21,38,52137,-3
+8480901,Karson Kuhlman,C,Boston Bruins,20,2,0,2,12778,-6
+8478567,Dean Kukan,D,Columbus Blue Jackets,35,1,4,5,29797,-3
+8476967,Brett Kulak,D,Montréal Canadiens,46,2,6,8,44457,3
+8475179,Dmitry Kulikov,D,"New Jersey Devils,Edmonton Oilers",48,0,4,4,55203,-3
+8479316,Luke Kunin,C,Nashville Predators,38,10,9,19,31900,3
+8479511,Janne Kuokkanen,L,New Jersey Devils,50,8,17,25,44323,-11
+8480845,Rasmus Kupari,C,Los Angeles Kings,7,1,0,1,4818,-5
+8476374,Sean Kuraly,C,Boston Bruins,47,4,5,9,39683,-10
+8480798,Philipp Kurashev,C,Chicago Blackhawks,54,8,8,16,42373,-9
+8475744,Evgeny Kuznetsov,C,Washington Capitals,41,9,20,29,40767,7
+8478430,Oliver Kylington,D,Calgary Flames,8,0,1,1,6279,-1
+8479385,Jordan Kyrou,C,St. Louis Blues,55,14,21,35,47599,1
+8480769,Joel L'Esperance,C,Dallas Stars,12,2,0,2,6783,-2
+8478099,Kevin Labanc,R,San Jose Sharks,55,12,16,28,54195,-9
+8479550,Tanner Laczynski,C,Philadelphia Flyers,5,0,0,0,2993,1
+8478043,Sam Lafferty,R,Pittsburgh Penguins,34,0,6,6,19943,-6
+8482109,Alexis Lafrenière,L,New York Rangers,56,12,9,21,46645,-7
+8478021,William Lagesson,D,Edmonton Oilers,19,0,2,2,16131,0
+8479339,Patrik Laine,L,"Winnipeg Jets,Columbus Blue Jackets",46,12,12,24,48161,-28
+8477996,Juho Lammikko,C,Florida Panthers,44,4,1,5,28594,-8
+8476455,Gabriel Landeskog,L,Colorado Avalanche,54,20,32,52,64661,14
+8477946,Dylan Larkin,C,Detroit Red Wings,44,9,14,23,53862,-14
+8476457,Adam Larsson,D,Edmonton Oilers,56,4,6,10,66015,2
+8478491,Jacob Larsson,D,Anaheim Ducks,46,1,6,7,47999,-9
+8475728,Johan Larsson,L,Arizona Coyotes,52,8,6,14,43615,-13
+8476872,Scott Laughton,C,Philadelphia Flyers,53,9,11,20,49037,13
+8478468,Jeremy Lauzon,D,Boston Bruins,41,1,7,8,46028,8
+8477508,Curtis Lazar,C,"Buffalo Sabres,Boston Bruins",50,7,6,13,39971,-6
+8475181,Nick Leddy,D,New York Islanders,56,2,29,31,72543,-3
+8475314,Anders Lee,L,New York Islanders,27,12,7,19,28392,11
+8477476,Artturi Lehkonen,L,Montréal Canadiens,47,7,6,13,37855,-2
+8482247,Mikko Lehtonen,D,"Toronto Maple Leafs,Columbus Blue Jackets",26,0,6,6,24774,-2
+8476410,Josh Leivo,L,Calgary Flames,38,6,3,9,24509,-3
+8477962,Brendan Lemieux,L,"New York Rangers,Los Angeles Kings",49,4,7,11,29789,-2
+8481077,John Leonard,L,San Jose Sharks,44,3,10,13,29691,-7
+8481105,Otto Leskinen,D,Montréal Canadiens,1,0,0,0,983,0
+8471724,Kris Letang,D,Pittsburgh Penguins,55,7,38,45,81340,19
+8479968,Vinni Lettieri,C,Anaheim Ducks,5,0,0,0,3816,-3
+8477343,Tyler Lewington,D,Nashville Predators,2,0,1,1,1700,4
+8473453,Trevor Lewis,C,Winnipeg Jets,56,5,5,10,33132,7
+8480043,Timothy Liljegren,D,Toronto Maple Leafs,2,0,0,0,1811,1
+8479986,Kole Lind,R,Vancouver Canucks,7,0,0,0,5523,-4
+8478067,Oskar Lindblom,L,Philadelphia Flyers,50,8,6,14,39545,-9
+8476902,Esa Lindell,D,Dallas Stars,56,5,11,16,77887,11
+8479324,Ryan Lindgren,D,New York Rangers,51,1,15,16,61184,20
+8477496,Elias Lindholm,C,Calgary Flames,56,19,28,47,66846,10
+8476854,Hampus Lindholm,D,Anaheim Ducks,18,2,4,6,23792,-1
+8480944,Par Lindholm,C,Boston Bruins,1,0,0,0,775,0
+8480184,Gustav Lindstrom,D,Detroit Red Wings,13,0,3,3,12572,1
+8481481,Blake Lizotte,C,Los Angeles Kings,41,3,7,10,31257,2
+8479367,William Lockwood,R,Vancouver Canucks,2,0,0,0,1703,-2
+8479066,Ryan Lomberg,L,Florida Panthers,34,2,2,4,19825,-2
+8478904,Steven Lorentz,C,Carolina Hurricanes,45,2,6,8,28185,1
+8476392,Adam Lowry,C,Winnipeg Jets,52,10,14,24,48441,6
+8473473,Milan Lucic,L,Calgary Flames,56,10,13,23,45791,-8
+8479644,Matt Luff,R,Los Angeles Kings,13,1,0,1,8177,-4
+8480806,Isac Lundestrom,C,Anaheim Ducks,41,6,3,9,37497,-9
+8480185,Eetu Luostarinen,C,Florida Panthers,44,3,5,8,34681,-11
+8480950,Ilya Lyubushkin,D,Arizona Coyotes,42,1,1,2,39543,-13
+8476874,Olli Maatta,D,Los Angeles Kings,41,0,4,4,40434,-8
+8477073,Kurtis MacDermid,D,Los Angeles Kings,28,2,2,4,22436,-14
+8479439,Jacob MacDonald,D,Colorado Avalanche,33,1,8,9,29602,14
+8476907,Mackenzie MacEachern,L,St. Louis Blues,21,1,1,2,12224,3
+8479772,Zack MacEwen,C,Vancouver Canucks,34,1,1,2,17627,-2
+8477974,Ryan MacInnis,C,Columbus Blue Jackets,16,0,0,0,9575,-3
+8482067,Connor Mackey,D,Calgary Flames,6,1,2,3,5098,3
+8477492,Nathan MacKinnon,C,Colorado Avalanche,48,20,45,65,58649,22
+8479372,Josh Mahura,D,Anaheim Ducks,13,1,3,4,12400,0
+8477544,Philippe Maillet,C,Washington Capitals,2,0,0,0,1098,-1
+8480069,Cale Makar,D,Colorado Avalanche,44,8,36,44,64174,17
+8471215,Evgeni Malkin,C,Pittsburgh Penguins,33,8,20,28,35127,-4
+8477391,Sean Malone,C,Nashville Predators,1,0,1,1,638,-1
+8479573,Mikhail Maltsev,L,New Jersey Devils,33,6,3,9,22665,-4
+8478233,Andrew Mangiapane,L,Calgary Flames,56,18,14,32,56005,1
+8476312,Josh Manson,D,Anaheim Ducks,23,1,6,7,24815,-3
+8477511,Anthony Mantha,R,"Detroit Red Wings,Washington Capitals",56,15,14,29,60896,-14
+8473419,Brad Marchand,L,Boston Bruins,53,29,40,69,60135,26
+8476539,Jonathan Marchessault,C,Vegas Golden Knights,55,18,26,44,57498,19
+8478975,Mason Marchment,L,Florida Panthers,33,2,8,10,27989,4
+8478507,John Marino,D,Pittsburgh Penguins,52,3,10,13,64689,5
+8466139,Patrick Marleau,C,San Jose Sharks,56,4,5,9,44630,-9
+8478483,Mitchell Marner,R,Toronto Maple Leafs,55,20,47,67,74009,21
+8474034,Pat Maroon,L,Tampa Bay Lightning,55,4,14,18,38256,2
+8474709,Matt Martin,L,New York Islanders,54,6,5,11,35864,-2
+8474166,Alec Martinez,D,Vegas Golden Knights,53,9,23,32,71759,26
+8476921,Jordan Martinook,L,Carolina Hurricanes,44,4,9,13,33678,-3
+8476875,Mike Matheson,D,Pittsburgh Penguins,44,5,11,16,49206,9
+8476870,Stefan Matteau,C,Columbus Blue Jackets,18,1,0,1,11690,-4
+8479318,Auston Matthews,C,Toronto Maple Leafs,52,41,25,66,67246,21
+8476429,Scott Mayfield,D,New York Islanders,56,2,13,15,65449,2
+8479933,Gerald Mayhew,C,Minnesota Wild,4,0,1,1,2818,1
+8479325,Charlie McAvoy,D,Boston Bruins,51,5,25,30,73427,22
+8476931,Jake McCabe,D,Buffalo Sabres,13,1,2,3,14962,2
+8477955,Jared McCann,L,Pittsburgh Penguins,43,14,18,32,36414,17
+8477446,Michael McCarron,R,Nashville Predators,6,0,0,0,3705,1
+8476323,Max McCormick,L,Carolina Hurricanes,12,2,1,3,5630,3
+8478402,Connor McDavid,C,Edmonton Oilers,56,33,72,105,74436,21
+8474151,Ryan McDonagh,D,Tampa Bay Lightning,50,4,8,12,65686,13
+8476934,Brock McGinn,L,Carolina Hurricanes,37,8,5,13,33268,0
+8475735,Greg McKegg,C,Boston Bruins,5,1,0,1,2872,-3
+8479415,Michael McLeod,C,New Jersey Devils,52,9,6,15,43097,-12
+8480802,Ryan McLeod,C,Edmonton Oilers,10,0,1,1,7673,-2
+8481580,Connor McMichael,C,Washington Capitals,1,0,0,0,594,0
+8475188,Brayden McNabb,D,Vegas Golden Knights,41,2,6,8,47475,10
+8477126,Jayson Megna,C,Colorado Avalanche,7,0,2,2,4306,2
+8478414,Timo Meier,R,San Jose Sharks,54,12,19,31,52026,-5
+8478467,Nicolas Meloche,D,San Jose Sharks,7,0,1,1,4028,1
+8478447,Nick Merkley,R,New Jersey Devils,27,2,8,10,18641,-5
+8477541,Dakota Mermis,D,Minnesota Wild,3,0,0,0,2952,0
+8475750,Jon Merrill,D,"Detroit Red Wings,Montréal Canadiens",49,0,5,5,53674,-9
+8479376,Victor Mete,D,"Montréal Canadiens,Ottawa Senators",28,1,4,5,26542,8
+8482063,Marc Michaelis,L,Vancouver Canucks,15,0,0,0,8173,-5
+8478136,Jacob Middleton,D,San Jose Sharks,1,0,0,0,524,-2
+8479387,Keaton Middleton,D,Colorado Avalanche,3,0,0,0,1675,-1
+8481624,Ilya Mikheyev,R,Toronto Maple Leafs,54,7,10,17,46039,5
+8478859,Niko Mikkola,D,St. Louis Blues,30,1,2,3,26132,-11
+8477947,Sonny Milano,L,Anaheim Ducks,6,0,0,0,5304,0
+8476525,Colin Miller,D,Buffalo Sabres,48,4,8,12,51840,-20
+8476468,J.T. Miller,C,Vancouver Canucks,53,15,31,46,66670,-7
+8480817,K'Andre Miller,D,New York Rangers,53,5,7,12,67129,9
+8476191,Kevan Miller,D,Boston Bruins,28,1,3,4,32029,-1
+8480070,Ian Mitchell,D,Chicago Blackhawks,39,3,4,7,35165,-10
+8479999,Casey Mittelstadt,C,Buffalo Sabres,41,10,12,22,39070,-10
+8477497,Sean Monahan,C,Calgary Flames,50,10,18,28,53072,-6
+8477986,Brandon Montour,D,"Buffalo Sabres,Florida Panthers",50,7,11,18,61458,-5
+8475186,John Moore,D,Boston Bruins,5,0,2,2,6296,-3
+8479675,Trevor Moore,C,Los Angeles Kings,56,10,13,23,48849,-5
+8477502,Samuel Morin,L,Philadelphia Flyers,20,1,0,1,12230,-7
+8477504,Josh Morrissey,D,Winnipeg Jets,56,4,17,21,79123,-1
+8477353,Tyler Motte,C,Vancouver Canucks,24,6,3,9,23065,0
+8476473,Connor Murphy,D,Chicago Blackhawks,50,3,12,15,66436,1
+8479419,Brett Murray,L,Buffalo Sabres,2,0,0,0,1275,1
+8476850,Ryan Murray,D,New Jersey Devils,48,0,14,14,53608,3
+8474162,Jake Muzzin,D,Toronto Maple Leafs,53,4,23,27,68631,21
+8479026,Philippe Myers,D,Philadelphia Flyers,44,1,10,11,49826,-10
+8474574,Tyler Myers,D,Vancouver Canucks,55,6,15,21,72861,-8
+8476480,Vladislav Namestnikov,C,Detroit Red Wings,53,8,9,17,51459,-5
+8474062,Riley Nash,C,Columbus Blue Jackets,37,2,5,7,27964,-1
+8471707,James Neal,L,Edmonton Oilers,29,5,5,10,21061,-2
+8480039,Martin Necas,C,Carolina Hurricanes,53,14,27,41,54987,25
+8475754,Brock Nelson,C,New York Islanders,56,18,15,33,59915,-5
+8475747,Patrik Nemeth,D,"Detroit Red Wings,Colorado Avalanche",52,3,7,10,56194,5
+8474604,Aaron Ness,D,Arizona Coyotes,1,0,0,0,770,0
+8476300,Nikita Nesterov,D,Calgary Flames,38,0,4,4,36165,-10
+8481618,Alex Newhook,C,Colorado Avalanche,6,0,3,3,4924,5
+8477501,Valeri Nichushkin,R,Colorado Avalanche,55,10,11,21,46468,9
+8475799,Nino Niederreiter,R,Carolina Hurricanes,56,20,14,34,52811,20
+8470144,Frans Nielsen,C,Detroit Red Wings,29,1,5,6,21115,-3
+8476442,Matt Nieto,L,San Jose Sharks,28,5,2,7,23511,-4
+8478915,Sami Niku,D,Winnipeg Jets,6,0,0,0,4668,-3
+8476474,Stefan Noesen,R,"San Jose Sharks,Toronto Maple Leafs",6,0,0,0,3459,0
+8475807,Joakim Nordstrom,C,Calgary Flames,44,1,6,7,30508,1
+8480064,Josh Norris,C,Ottawa Senators,56,17,18,35,55334,-12
+8477931,Tomas Nosek,L,Vegas Golden Knights,38,8,10,18,29642,7
+8476454,Ryan Nugent-Hopkins,C,Edmonton Oilers,52,16,19,35,64810,-4
+8477498,Darnell Nurse,D,Edmonton Oilers,56,16,20,36,86100,27
+8478906,Markus Nutivaara,D,Florida Panthers,30,0,10,10,28756,1
+8481638,Joakim Nygard,L,Edmonton Oilers,9,0,0,0,4940,-2
+8477939,William Nylander,R,Toronto Maple Leafs,51,17,25,42,50798,10
+8477070,Liam O'Brien,C,Colorado Avalanche,12,0,3,3,4730,1
+8482055,Drew O'Connor,L,Pittsburgh Penguins,10,0,1,1,5372,-2
+8481186,Logan O'Connor,R,Colorado Avalanche,22,3,2,5,14442,6
+8475158,Ryan O'Reilly,C,St. Louis Blues,56,24,30,54,69716,26
+8477851,Jordan Oesterle,D,Arizona Coyotes,43,1,10,11,46185,-10
+8473449,Kyle Okposo,R,Buffalo Sabres,35,2,11,13,29151,-1
+8476467,Jamie Oleksiak,D,Dallas Stars,56,6,8,14,68804,-3
+8479671,Mathieu Olivier,R,Nashville Predators,30,3,2,5,19657,-1
+8478109,Victor Olofsson,L,Buffalo Sabres,56,13,19,32,58439,-23
+8475200,Dmitry Orlov,D,Washington Capitals,51,8,14,22,60630,16
+8471698,T.J. Oshie,R,Washington Capitals,53,22,21,43,57443,-3
+8476443,Xavier Ouellet,D,Montréal Canadiens,6,0,0,0,5202,-1
+8471214,Alex Ovechkin,L,Washington Capitals,45,24,18,42,52655,-7
+8474157,Max Pacioretty,L,Vegas Golden Knights,48,24,27,51,51665,20
+8476419,Jean-Gabriel Pageau,C,New York Islanders,54,14,14,28,54400,10
+8476292,Ondrej Palat,L,Tampa Bay Lightning,55,15,31,46,57603,1
+8475151,Kyle Palmieri,R,"New Jersey Devils,New York Islanders",51,10,11,21,50715,-5
+8478550,Artemi Panarin,L,New York Rangers,42,17,41,58,49500,14
+8475209,Richard Panik,R,"Washington Capitals,Detroit Red Wings",48,4,9,13,35613,-9
+8476975,Cedric Paquette,C,"Ottawa Senators,Carolina Hurricanes",47,4,4,8,26357,-12
+8476892,Colton Parayko,D,St. Louis Blues,32,2,10,12,40956,-2
+8470610,Zach Parise,L,Minnesota Wild,45,7,11,18,37656,7
+8482369,Brinson Pasichnuk,D,San Jose Sharks,4,0,0,0,2786,-1
+8477956,David Pastrnak,R,Boston Bruins,48,20,28,48,53609,10
+8474688,Greg Pateryn,D,"Minnesota Wild,Colorado Avalanche,San Jose Sharks",13,0,3,3,11028,0
+8479974,Nolan Patrick,C,Philadelphia Flyers,52,4,5,9,41426,-30
+8477426,Nick Paul,L,Ottawa Senators,56,5,15,20,54036,5
+8470794,Joe Pavelski,C,Dallas Stars,56,25,26,51,63914,22
+8476871,Tanner Pearson,L,Vancouver Canucks,51,10,8,18,52240,-15
+8476285,Matthew Peca,C,Ottawa Senators,5,0,1,1,2667,1
+8478967,Lane Pederson,C,Arizona Coyotes,15,1,2,3,9969,-2
+8479369,Andrew Peeke,D,Columbus Blue Jackets,11,0,3,3,11321,-4
+8476917,Adam Pelech,D,New York Islanders,56,4,10,14,70716,15
+8473618,Mathieu Perreault,L,Winnipeg Jets,56,9,10,19,39340,6
+8474102,David Perron,L,St. Louis Blues,56,19,39,58,62325,6
+8470621,Corey Perry,R,Montréal Canadiens,49,9,12,21,40393,-4
+8477488,Brett Pesce,D,Carolina Hurricanes,55,4,21,25,75214,14
+8477464,Nic Petan,C,Toronto Maple Leafs,7,0,1,1,4316,-2
+8473507,Jeff Petry,D,Montréal Canadiens,55,12,30,42,75034,6
+8480012,Elias Pettersson,C,Vancouver Canucks,26,10,11,21,28967,0
+8477969,Marcus Pettersson,D,Pittsburgh Penguins,47,2,7,9,46488,8
+8479547,Matthew Phillips,C,Calgary Flames,1,0,0,0,859,0
+8474565,Alex Pietrangelo,D,Vegas Golden Knights,41,7,16,23,60104,20
+8479516,Garrett Pilon,C,Washington Capitals,1,0,0,0,640,0
+8477314,Brian Pinho,C,Washington Capitals,2,0,0,0,937,-2
+8481596,Shane Pinto,C,Ottawa Senators,12,1,6,7,9015,6
+8480145,Neal Pionk,D,Winnipeg Jets,54,3,29,32,71191,6
+8475204,Brandon Pirri,C,Chicago Blackhawks,1,0,0,0,689,-2
+8479514,Rem Pitlick,C,Nashville Predators,10,0,2,2,6782,3
+8475752,Tyler Pitlick,C,Arizona Coyotes,38,6,5,11,37309,-1
+8478040,Austin Poganski,R,St. Louis Blues,5,0,0,0,2269,-1
+8478010,Brayden Point,C,Tampa Bay Lightning,56,23,25,48,61945,2
+8477359,Tucker Poolman,D,Winnipeg Jets,39,0,1,1,42841,-2
+8475613,Nate Prosser,D,Philadelphia Flyers,6,1,1,2,4699,-7
+8478500,Ivan Provorov,D,Philadelphia Flyers,56,7,19,26,83995,4
+8479344,Jesse Puljujarvi,R,Edmonton Oilers,55,15,10,25,49923,6
+8477506,Ryan Pulock,D,New York Islanders,56,2,15,17,75400,15
+8475796,Mark Pysyk,D,Dallas Stars,36,3,1,4,25295,6
+8471228,Alexander Radulov,R,Dallas Stars,11,4,8,12,11741,9
+8481479,Brogan Rafferty,D,Vancouver Canucks,1,0,1,1,838,-1
+8477290,Michael Raffl,L,"Philadelphia Flyers,Washington Capitals",44,4,7,11,34987,-4
+8476483,Rickard Rakell,L,Anaheim Ducks,52,9,19,28,55619,-14
+8478420,Mikko Rantanen,R,Colorado Avalanche,52,30,36,66,62144,30
+8476437,Victor Rask,C,Minnesota Wild,54,10,13,23,46814,1
+8479992,Michael Rasmussen,C,Detroit Red Wings,40,3,9,12,35517,-5
+8480056,Jack Rathbone,D,Vancouver Canucks,8,1,2,3,7443,1
+8476415,Kyle Rau,C,Minnesota Wild,14,0,2,2,8029,-1
+8471817,Ryan Reaves,R,Vegas Golden Knights,37,1,4,5,22043,0
+8480831,Alec Regula,D,Chicago Blackhawks,3,0,0,0,2228,-1
+8476422,Mike Reilly,D,"Ottawa Senators,Boston Bruins",55,0,27,27,63615,5
+8477933,Sam Reinhart,C,Buffalo Sabres,54,25,15,40,63306,-28
+8480776,Sheldon Rempal,R,Carolina Hurricanes,3,0,0,0,1493,0
+8479252,Dan Renouf,D,Colorado Avalanche,18,0,3,3,10977,-1
+8479462,Tarmo Reunanen,D,New York Rangers,4,0,1,1,3186,1
+8482179,Justin Richards,C,New York Rangers,1,0,1,1,611,1
+8470755,Brad Richardson,R,Nashville Predators,17,1,3,4,12509,0
+8476356,Tobias Rieder,L,Buffalo Sabres,44,5,2,7,32338,-9
+8476853,Morgan Rielly,D,Toronto Maple Leafs,55,5,30,35,77921,11
+8480945,Juuso Riikola,D,Pittsburgh Penguins,2,0,0,0,1371,0
+8474736,Zac Rinaldo,C,Calgary Flames,4,0,0,0,1401,-1
+8477499,Rasmus Ristolainen,D,Buffalo Sabres,49,4,14,18,65520,-18
+8476439,Brett Ritchie,R,Calgary Flames,32,4,4,8,21836,-5
+8477941,Nick Ritchie,L,Boston Bruins,56,15,11,26,51640,-7
+8480027,Jason Robertson,L,Dallas Stars,51,17,28,45,51673,13
+8481582,Nicholas Robertson,L,Toronto Maple Leafs,6,0,1,1,3394,1
+8477210,Buddy Robinson,R,Calgary Flames,9,0,0,0,3854,0
+8480762,Eric Robinson,L,Columbus Blue Jackets,56,8,10,18,41644,6
+8478542,Evan Rodrigues,C,Pittsburgh Penguins,35,7,7,14,29620,-3
+8481014,Alexander Romanov,D,Montréal Canadiens,54,1,5,6,55910,1
+8479291,Kevin Rooney,C,New York Rangers,54,8,6,14,40026,0
+8478458,Jack Roslovic,C,Columbus Blue Jackets,48,12,22,34,48679,-11
+8474849,Antoine Roussel,L,Vancouver Canucks,35,1,3,4,24162,4
+8477240,Carter Rowney,C,Anaheim Ducks,19,0,6,6,16282,-2
+8478911,Matt Roy,D,Los Angeles Kings,44,2,8,10,50831,0
+8478462,Nicolas Roy,C,Vegas Golden Knights,50,6,9,15,39052,9
+8477244,Chad Ruhwedel,D,Pittsburgh Penguins,17,0,2,2,14987,3
+8481626,Arttu Ruotsalainen,C,Buffalo Sabres,17,5,1,6,14261,-9
+8471729,Kris Russell,D,Edmonton Oilers,35,0,9,9,38623,0
+8479466,Patrick Russell,R,Edmonton Oilers,8,0,2,2,5107,0
+8475810,Bryan Rust,R,Pittsburgh Penguins,56,22,20,42,66273,9
+8480172,Jan Rutta,D,Tampa Bay Lightning,35,0,8,8,33668,12
+8480008,Adam Ruzicka,C,Calgary Flames,3,0,1,1,1935,2
+8471676,Bobby Ryan,R,Detroit Red Wings,33,7,7,14,30343,-14
+8478585,Derek Ryan,C,Calgary Flames,43,2,11,13,30678,6
+8477046,Joakim Ryan,D,Carolina Hurricanes,4,0,0,0,2604,-1
+8480221,Drake Rymsha,C,Los Angeles Kings,1,0,0,0,796,1
+8476438,Brandon Saad,L,Colorado Avalanche,44,15,9,24,37205,1
+8477149,Scott Sabourin,R,Toronto Maple Leafs,1,0,0,0,269,0
+8480807,Mattias Samuelsson,D,Buffalo Sabres,12,0,2,2,12982,-8
+8480873,Rasmus Sandin,D,Toronto Maple Leafs,9,0,4,4,7917,6
+8477482,Zach Sanford,L,St. Louis Blues,52,10,6,16,46458,-13
+8477948,Travis Sanheim,D,Philadelphia Flyers,55,3,12,15,72225,-22
+8477463,Steven Santini,D,St. Louis Blues,3,0,1,1,2521,1
+8475233,David Savard,D,"Columbus Blue Jackets,Tampa Bay Lightning",54,1,5,6,64301,-27
+8474579,Luca Sbisa,D,Nashville Predators,1,0,0,0,718,0
+8474618,Marco Scandella,D,St. Louis Blues,49,3,6,9,58648,14
+8474098,Colton Sceviour,R,Pittsburgh Penguins,46,5,5,10,26439,0
+8476460,Mark Scheifele,C,Winnipeg Jets,56,21,42,63,70434,-4
+8475170,Brayden Schenn,C,St. Louis Blues,56,16,20,36,64322,-2
+8474568,Luke Schenn,D,Tampa Bay Lightning,38,2,2,4,24526,2
+8477951,Nick Schmaltz,C,Arizona Coyotes,52,10,22,32,53219,-1
+8477220,Nate Schmidt,D,Vancouver Canucks,54,5,10,15,65133,-7
+8474602,Justin Schultz,D,Washington Capitals,46,3,24,27,52484,12
+8475768,Jaden Schwartz,L,St. Louis Blues,40,8,13,21,42488,2
+8475794,Tyler Seguin,C,Dallas Stars,3,2,0,2,3073,0
+8471284,Andrej Sekera,D,Dallas Stars,46,3,2,5,43166,12
+8478485,Zach Senyshyn,R,Boston Bruins,8,0,0,0,4853,-1
+8479410,Mikhail Sergachev,D,Tampa Bay Lightning,56,4,26,30,73820,5
+8476923,Damon Severson,D,New Jersey Devils,56,3,18,21,75548,-8
+8475958,Michael Sgarbossa,C,Washington Capitals,5,0,2,2,2939,2
+8481068,Yegor Sharangovich,C,New Jersey Devils,54,16,14,30,54456,-4
+8474031,Kevin Shattenkirk,D,Anaheim Ducks,55,2,13,15,69978,-8
+8476381,Andrew Shaw,R,Chicago Blackhawks,14,2,2,4,12693,-5
+8475772,Riley Sheahan,C,Buffalo Sabres,53,4,9,13,42300,-8
+8477839,Conor Sheary,L,Washington Capitals,53,14,8,22,43598,-1
+8480748,Kiefer Sherwood,L,Colorado Avalanche,16,0,3,3,8445,2
+8478949,Kole Sherwood,R,Columbus Blue Jackets,6,0,1,1,3727,-2
+8476913,Devin Shore,C,Edmonton Oilers,38,5,4,9,24902,-4
+8475213,Drew Shore,C,Carolina Hurricanes,4,0,0,0,2038,-1
+8478399,Jonas Siegenthaler,D,"Washington Capitals,New Jersey Devils",15,0,0,0,14055,-9
+8478106,Dylan Sikura,C,Vegas Golden Knights,6,2,0,2,3688,0
+8475164,Jakob Silfverberg,R,Anaheim Ducks,47,8,8,16,47783,-17
+8480160,Radim Simek,D,San Jose Sharks,40,2,4,6,34109,-9
+8474190,Wayne Simmonds,R,Toronto Maple Leafs,38,7,2,9,27327,-3
+8478866,Dominik Simon,C,Calgary Flames,11,0,0,0,6339,0
+8476925,Colton Sissons,C,Nashville Predators,54,8,7,15,46501,2
+8475784,Jeff Skinner,L,Buffalo Sabres,53,7,7,14,46177,-11
+8476869,Brady Skjei,D,Carolina Hurricanes,52,3,7,10,64685,6
+8476958,Jaccob Slavin,D,Carolina Hurricanes,52,3,12,15,71705,22
+8474090,Brendan Smith,D,New York Rangers,48,5,5,10,47330,3
+8480083,C.J. Smith,L,Buffalo Sabres,1,0,0,0,477,0
+8482062,Cole Smith,L,Nashville Predators,1,0,0,0,357,0
+8475225,Craig Smith,C,Boston Bruins,54,13,19,32,48195,21
+8476966,Gemel Smith,C,Tampa Bay Lightning,5,0,3,3,3013,3
+8479379,Givani Smith,R,Detroit Red Wings,16,1,3,4,10165,-5
+8475191,Reilly Smith,R,Vegas Golden Knights,53,14,11,25,56822,10
+8480883,Ty Smith,D,New Jersey Devils,48,2,21,23,57954,-9
+8471262,Carl Soderberg,C,"Chicago Blackhawks,Colorado Avalanche",45,7,10,17,38915,-5
+8481599,Victor Soderstrom,D,Arizona Coyotes,4,1,1,2,3914,4
+8475834,Marcus Sorensen,L,San Jose Sharks,29,1,4,5,21036,-5
+8477369,Carson Soucy,D,Minnesota Wild,50,1,16,17,45856,22
+8469455,Jason Spezza,C,Toronto Maple Leafs,54,10,20,30,35735,3
+8478466,Daniel Sprong,R,Washington Capitals,42,13,7,20,29405,7
+8474716,Jared Spurgeon,D,Minnesota Wild,54,7,18,25,71566,-2
+8470595,Eric Staal,C,"Buffalo Sabres,Montréal Canadiens",53,5,8,13,46811,-30
+8473533,Jordan Staal,C,Carolina Hurricanes,53,16,22,38,58784,2
+8471686,Marc Staal,D,Detroit Red Wings,56,3,7,10,61856,-5
+8474564,Steven Stamkos,C,Tampa Bay Lightning,38,17,17,34,41650,4
+8479378,Logan Stanley,D,Winnipeg Jets,37,1,3,4,29354,13
+8471669,Paul Stastny,C,Winnipeg Jets,56,13,16,29,58496,-3
+8479442,Troy Stecher,D,Detroit Red Wings,44,3,8,11,45714,-13
+8479351,Sam Steel,C,Anaheim Ducks,42,6,6,12,36611,-7
+8479546,Oskar Steen,C,Boston Bruins,3,0,0,0,2413,-1
+8478831,Kevin Stenlund,C,Columbus Blue Jackets,32,5,5,10,24056,-4
+8474613,Derek Stepan,C,Ottawa Senators,20,1,5,6,18077,-6
+8478477,Mitchell Stephens,C,Tampa Bay Lightning,7,0,1,1,3977,-5
+8476905,Chandler Stephenson,C,Vegas Golden Knights,51,14,21,35,55376,22
+8479388,Riley Stillman,D,"Florida Panthers,Chicago Blackhawks",21,1,0,1,19359,5
+8475913,Mark Stone,R,Vegas Golden Knights,55,21,40,61,62901,26
+8474628,Michael Stone,D,Calgary Flames,21,2,2,4,20260,-1
+8471873,Anton Stralman,D,Florida Panthers,38,3,6,9,43205,-1
+8480467,Austin Strand,D,Los Angeles Kings,13,0,1,1,10803,2
+8478440,Dylan Strome,C,Chicago Blackhawks,40,9,8,17,37232,-16
+8476458,Ryan Strome,C,New York Rangers,56,14,35,49,61393,6
+8480226,Marian Studenic,R,New Jersey Devils,8,1,1,2,5175,-2
+8480021,Jack Studnicka,C,Boston Bruins,20,1,2,3,15300,-3
+8481477,Nico Sturm,C,Minnesota Wild,50,11,6,17,32537,10
+8482116,Tim Stützle,L,Ottawa Senators,53,12,17,29,50052,-18
+8474056,P.K. Subban,D,New Jersey Devils,44,5,14,19,59027,-16
+8476897,Oskar Sundqvist,C,St. Louis Blues,28,4,5,9,25459,-6
+8480965,Antti Suomela,C,San Jose Sharks,4,0,0,0,2669,0
+8480201,Maksim Sushko,R,Philadelphia Flyers,2,0,0,0,1147,-1
+8480459,Pius Suter,C,Chicago Blackhawks,55,14,13,27,53901,-5
+8470600,Ryan Suter,D,Minnesota Wild,56,3,16,19,74537,9
+8474091,Brandon Sutter,C,Vancouver Canucks,43,9,3,12,38901,-9
+8480018,Nick Suzuki,C,Montréal Canadiens,56,15,26,41,61090,-5
+8480830,Andrei Svechnikov,R,Carolina Hurricanes,55,15,27,42,57879,1
+8478431,Evgeny Svechnikov,R,Detroit Red Wings,21,3,5,8,14891,-3
+8479293,Brandon Tanev,L,Pittsburgh Penguins,32,7,9,16,27716,12
+8475690,Christopher Tanev,D,Calgary Flames,56,2,10,12,73016,15
+8475765,Vladimir Tarasenko,R,St. Louis Blues,24,4,10,14,25085,-7
+8475193,Tomas Tatar,L,Montréal Canadiens,50,10,20,30,44961,0
+8475166,John Tavares,C,Toronto Maple Leafs,56,19,31,50,61142,12
+8476807,Matt Tennyson,D,New Jersey Devils,21,1,2,3,18276,0
+8476882,Teuvo Teravainen,L,Carolina Hurricanes,21,5,10,15,20716,5
+8478873,Troy Terry,R,Anaheim Ducks,48,7,13,20,42333,-1
+8480074,Alexandre Texier,C,Columbus Blue Jackets,49,4,11,15,46568,-13
+8477447,Shea Theodore,D,Vegas Golden Knights,53,8,34,42,71697,28
+8478049,Ben Thomas,D,Tampa Bay Lightning,5,0,0,0,4271,1
+8480023,Robert Thomas,C,St. Louis Blues,33,3,9,12,26934,1
+8470775,Nate Thompson,C,Winnipeg Jets,44,2,3,5,25569,4
+8479420,Tage Thompson,R,Buffalo Sabres,38,8,6,14,31630,-6
+8481740,Tyce Thompson,R,New Jersey Devils,7,0,1,1,3663,-3
+8466138,Joe Thornton,C,Toronto Maple Leafs,44,5,15,20,36221,6
+8476919,Chris Tierney,C,Ottawa Senators,55,6,13,19,49467,-12
+8478857,Dmytro Timashov,L,New York Islanders,1,0,0,0,433,-2
+8479982,Conor Timmins,D,Colorado Avalanche,31,0,7,7,25209,6
+8475797,Jarred Tinordi,D,"Nashville Predators,Boston Bruins",21,0,1,1,21546,-6
+8480015,Owen Tippett,R,Florida Panthers,45,7,11,18,30999,-5
+8480801,Brady Tkachuk,L,Ottawa Senators,56,17,19,36,61252,-17
+8479314,Matthew Tkachuk,L,Calgary Flames,56,16,27,43,61005,6
+8478038,Devon Toews,D,Colorado Avalanche,53,9,22,31,78774,29
+8475726,Tyler Toffoli,R,Montréal Canadiens,52,28,16,44,54674,0
+8480009,Eeli Tolvanen,R,Nashville Predators,40,11,11,22,35537,-10
+8476952,Dominic Toninato,C,Winnipeg Jets,2,0,1,1,1519,0
+8478508,Yakov Trenin,C,Nashville Predators,45,5,6,11,31218,4
+8476389,Vincent Trocheck,C,Carolina Hurricanes,47,17,26,43,51397,-3
+8476885,Jacob Trouba,D,New York Rangers,38,2,10,12,49000,3
+8480384,Alexander True,C,San Jose Sharks,7,0,1,1,4196,1
+8477949,Alex Tuch,R,Vegas Golden Knights,55,18,15,33,55527,16
+8474068,Kyle Turris,C,Edmonton Oilers,27,2,3,5,19957,-11
+8479358,Carsen Twarynski,L,Philadelphia Flyers,7,0,0,0,3719,-3
+8480001,Urho Vaakanainen,D,Boston Bruins,9,0,2,2,10215,-3
+8479976,Juuso Valimaki,D,Calgary Flames,49,2,9,11,45369,-2
+8474037,James van Riemsdyk,L,Philadelphia Flyers,56,17,26,43,55587,2
+8477845,Trevor van Riemsdyk,D,Washington Capitals,20,1,2,3,20492,-1
+8475222,Sami Vatanen,D,"New Jersey Devils,Dallas Stars",39,2,4,6,39816,3
+8478366,Frank Vatrano,C,Florida Panthers,56,18,8,26,48775,8
+8480813,Joe Veleno,C,Detroit Red Wings,5,1,0,1,4531,0
+8477409,Carter Verhaeghe,C,Florida Panthers,43,18,18,36,45752,24
+8480005,Kristian Vesalainen,L,Winnipeg Jets,12,0,1,1,6253,0
+8476918,Jimmy Vesey,L,"Toronto Maple Leafs,Vancouver Canucks",50,5,5,10,38125,-14
+8479705,Jeffrey Viel,L,San Jose Sharks,11,0,0,0,4797,-7
+8480014,Gabriel Vilardi,C,Los Angeles Kings,54,10,13,23,47795,-8
+8477937,Jake Virtanen,R,Vancouver Canucks,38,5,0,5,27936,-4
+8471709,Marc-Edouard Vlasic,D,San Jose Sharks,51,1,5,6,53585,-8
+8480186,Alexander Volkov,R,"Tampa Bay Lightning,Anaheim Ducks",37,7,6,13,25860,1
+8474161,Jakub Voracek,R,Philadelphia Flyers,53,9,34,43,53796,-12
+8477944,Jakub Vrana,L,"Washington Capitals,Detroit Red Wings",50,19,17,36,45021,10
+8478455,Austin Wagner,L,Los Angeles Kings,44,4,4,8,27722,-14
+8475780,Chris Wagner,R,Boston Bruins,41,2,3,5,28750,-9
+8480789,Oliver Wahlstrom,R,New York Islanders,44,12,9,21,32699,2
+8478069,Daniel Walcott,L,Tampa Bay Lightning,1,0,0,0,603,-1
+8477573,Nathan Walker,L,St. Louis Blues,8,1,0,1,6479,-4
+8480336,Sean Walker,D,Los Angeles Kings,47,5,13,18,51234,-13
+8478027,Lucas Wallmark,C,"Chicago Blackhawks,Florida Panthers",20,0,3,3,13662,-4
+8478013,Jake Walman,D,St. Louis Blues,24,1,1,2,20826,-7
+8475766,Austin Watson,L,Ottawa Senators,34,3,7,10,24485,-7
+8470642,Shea Weber,D,Montréal Canadiens,48,6,13,19,65376,-4
+8474134,Yannick Weber,D,Pittsburgh Penguins,2,0,0,0,1358,-3
+8477346,MacKenzie Weegar,D,Florida Panthers,54,6,30,36,71656,29
+8476407,Andy Welinski,D,Anaheim Ducks,13,0,0,0,11720,4
+8477505,Alex Wennberg,C,Florida Panthers,56,17,12,29,61041,6
+8478460,Zach Werenski,D,Columbus Blue Jackets,35,7,13,20,51154,-9
+8471218,Blake Wheeler,R,Winnipeg Jets,50,15,31,46,55022,-17
+8478400,Colin White,C,Ottawa Senators,45,10,8,18,39666,-6
+8478841,Colton White,D,New Jersey Devils,2,0,0,0,1712,-1
+8480727,Zach Whitecloud,D,Vegas Golden Knights,51,2,10,12,54521,9
+8476880,Tom Wilson,R,Washington Capitals,47,13,20,33,46638,1
+8478846,Christian Wolanin,D,"Ottawa Senators,Los Angeles Kings",18,0,3,3,14331,-6
+8477425,Miles Wood,L,New Jersey Devils,55,17,8,25,49418,-6
+8479977,Kailer Yamamoto,R,Edmonton Oilers,52,8,13,21,51038,9
+8471735,Keith Yandle,D,Florida Panthers,56,3,24,27,57932,-8
+8481058,Jesse Ylonen,R,Montréal Canadiens,1,0,0,0,683,0
+8481546,Cam York,D,Philadelphia Flyers,3,0,0,0,3561,-1
+8478401,Pavel Zacha,C,New Jersey Devils,50,17,18,35,51465,-11
+8480821,Filip Zadina,R,Detroit Red Wings,49,6,13,19,49409,-4
+8477507,Nikita Zadorov,D,Chicago Blackhawks,55,1,7,8,63376,1
+8479458,Nikita Zaitsev,D,Ottawa Senators,55,4,13,17,75042,-13
+8471233,Travis Zajac,C,"New Jersey Devils,New York Islanders",46,8,12,20,45294,-1
+8481178,Egor Zamula,D,Philadelphia Flyers,2,0,0,0,2048,1
+8478415,Jakub Zboril,D,Boston Bruins,42,0,9,9,42973,0
+8481533,Trevor Zegras,C,Anaheim Ducks,24,3,10,13,22172,6
+8476459,Mika Zibanejad,C,New York Rangers,56,24,26,50,67537,2
+8482241,Radim Zohorna,L,Pittsburgh Penguins,8,2,2,4,4334,4
+8482245,Artem Zub,D,Ottawa Senators,47,3,11,14,51838,4
+8475692,Mats Zuccarello,R,Minnesota Wild,42,11,24,35,42038,9
+8475722,Jason Zucker,L,Pittsburgh Penguins,38,9,9,18,35768,-8
