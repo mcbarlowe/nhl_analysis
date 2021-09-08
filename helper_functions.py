@@ -1,7 +1,7 @@
 import os
 import sqlalchemy as sa
 import pandas as pd
-import psycopg2
+#import psycopg2
 import math
 
 from sklearn.ensemble import BaggingRegressor
@@ -10,6 +10,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 
 
+
+'''
 def fetch_data():
     engine = sa.create_engine(os.environ["EW_CONNECT"])
     all_sits_sql = """
@@ -71,6 +73,7 @@ def fetch_data():
     pp_df = pd.read_sql(pp_sql, engine)
 
     return all_sits_df, pp_df
+'''
 
 
 def cv_model(x, y, model, n_estimators: int, features: list = []):
@@ -80,7 +83,7 @@ def cv_model(x, y, model, n_estimators: int, features: list = []):
         steps=[
             ("preprocessor", StandardScaler()),
             (
-                "classifier",
+                "regressor",
                 BaggingRegressor(model, n_estimators=n_estimators, bootstrap=True),
             ),
         ]
